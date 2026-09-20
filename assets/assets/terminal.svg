@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-labelledby="title desc">
+  <title id="title">Animated developer terminal</title>
+  <desc id="desc">A futuristic terminal showing Hiếu Nguyễn's focus areas and engineering direction.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081325"/><stop offset="1" stop-color="#070914"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="1" y="1" width="998" height="388" rx="18" fill="url(#frame)" stroke="#164e63" stroke-width="2"/>
+  <rect x="1" y="1" width="998" height="48" rx="18" fill="#0f172a"/><rect x="1" y="32" width="998" height="17" fill="#0f172a"/>
+  <circle cx="28" cy="24" r="6" fill="#fb7185"/><circle cx="50" cy="24" r="6" fill="#fbbf24"/><circle cx="72" cy="24" r="6" fill="#4ade80"/>
+  <text x="500" y="29" text-anchor="middle" fill="#64748b" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">hieu@systems-node: ~/profile</text>
+  <rect x="1" y="47" width="998" height="2" fill="url(#edge)" opacity=".7"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19">
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin=".2s" dur=".4s" fill="freeze"/><text x="42" y="88" fill="#67e8f9">$ whoami</text><text x="42" y="120" fill="#e2e8f0">Hiếu Nguyễn — Backend Developer | Software Engineer</text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1s" dur=".4s" fill="freeze"/><text x="42" y="164" fill="#67e8f9">$ focus --current</text><text x="42" y="196" fill="#94a3b8">backend_systems  api_design  databases  system_analysis</text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="1.9s" dur=".4s" fill="freeze"/><text x="42" y="240" fill="#60a5fa">$ roadmap --next</text><text x="42" y="272" fill="#94a3b8">software_architecture  distributed_systems  ai_assisted_engineering</text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.8s" dur=".4s" fill="freeze"/><text x="42" y="316" fill="#c084fc">$ engineering_principle</text><text x="42" y="348" fill="#ddd6fe">"Think clearly. Design cleanly. Build reliably."</text></g>
+    <rect x="42" y="361" width="10" height="19" fill="#22d3ee" filter="url(#glow)"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Hiếu Nguyễn — Backend Developer and Software Engineer</title>
+  <desc id="desc">Animated futuristic space banner for Hiếu Nguyễn.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/><stop offset="0.46" stop-color="#07152d"/><stop offset="1" stop-color="#160a2e"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="0.52" stop-color="#60a5fa"/><stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/><stop offset="0.42" stop-color="#38bdf8"/><stop offset="0.72" stop-color="#818cf8"/><stop offset="1" stop-color="#d8b4fe"/>
+    </linearGradient>
+    <radialGradient id="planet" cx="34%" cy="28%"><stop offset="0" stop-color="#ecfeff"/><stop offset="0.12" stop-color="#67e8f9"/><stop offset="0.46" stop-color="#2563eb"/><stop offset="1" stop-color="#312e81"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#164e63" stroke-width="0.55" opacity="0.19"/></pattern>
+    <clipPath id="typingClip"><rect x="72" y="240" width="0" height="34"><animate attributeName="width" values="0;560;560;0" keyTimes="0;0.34;0.86;1" dur="7s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+
+  <g opacity="0.62" fill="#e0f2fe">
+    <circle cx="86" cy="48" r="1.2"><animate attributeName="opacity" values=".15;1;.15" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="210" cy="76" r="1"><animate attributeName="opacity" values="1;.1;1" dur="4.8s" repeatCount="indefinite"/></circle>
+    <circle cx="368" cy="42" r="1.4"><animate attributeName="opacity" values=".1;.9;.1" dur="5.1s" repeatCount="indefinite"/></circle>
+    <circle cx="542" cy="82" r="1"><animate attributeName="opacity" values=".25;1;.25" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="714" cy="40" r="1.3"><animate attributeName="opacity" values="1;.15;1" dur="4.3s" repeatCount="indefinite"/></circle>
+    <circle cx="828" cy="98" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="5.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1138" cy="55" r="1.3"><animate attributeName="opacity" values="1;.15;1" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1102" cy="298" r="1.2"><animate attributeName="opacity" values=".15;1;.15" dur="5.2s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="320" r="1"><animate attributeName="opacity" values="1;.2;1" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="304" r="1.1"><animate attributeName="opacity" values=".2;1;.2" dur="5.3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <path d="M63 104H452" stroke="#22d3ee" stroke-width="1" opacity=".24"/>
+  <path d="M63 108H250" stroke="url(#neon)" stroke-width="2" opacity=".7"><animate attributeName="d" values="M63 108H180;M63 108H420;M63 108H180" dur="5s" repeatCount="indefinite"/></path>
+
+  <text x="72" y="86" fill="#67e8f9" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="3">SYSTEM // DEVELOPER PROFILE</text>
+  <text x="68" y="176" fill="url(#nameGrad)" font-size="58" font-weight="800" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1.2" filter="url(#glow)">HIẾU NGUYỄN</text>
+  <text x="72" y="216" fill="#e2e8f0" font-size="23" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="1">BACKEND DEVELOPER  /  SOFTWARE ENGINEER</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">
+    <g transform="translate(72 229)"><rect width="128" height="23" rx="11" fill="#052b38" stroke="#22d3ee" opacity=".95"/><text x="64" y="15" text-anchor="middle" fill="#a5f3fc">BACKEND SYSTEMS</text></g>
+    <g transform="translate(210 229)"><rect width="100" height="23" rx="11" fill="#0b2342" stroke="#60a5fa" opacity=".95"/><text x="50" y="15" text-anchor="middle" fill="#bfdbfe">API DESIGN</text></g>
+    <g transform="translate(320 229)"><rect width="133" height="23" rx="11" fill="#23123d" stroke="#a78bfa" opacity=".95"/><text x="66.5" y="15" text-anchor="middle" fill="#ddd6fe">SYSTEM ANALYSIS</text></g>
+  </g>
+
+  <g clip-path="url(#typingClip)"><text x="72" y="282" fill="#a5f3fc" font-size="18" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">&gt; building clean systems from real-world problems</text></g>
+  <rect x="608" y="263" width="9" height="24" fill="#67e8f9"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+
+  <g transform="translate(72 318)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
+    <circle cx="6" cy="0" r="5" fill="#22c55e"><animate attributeName="opacity" values=".45;1;.45" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="20" y="4" fill="#94a3b8">STATUS: LEARNING / BUILDING / ITERATING</text>
+  </g>
+
+  <circle cx="1028" cy="175" r="91" fill="#312e81" opacity=".18" filter="url(#soft)"><animate attributeName="r" values="82;105;82" dur="7s" repeatCount="indefinite"/></circle>
+  <circle cx="1028" cy="175" r="69" fill="url(#planet)" opacity=".95"/>
+  <ellipse cx="1028" cy="175" rx="124" ry="35" fill="none" stroke="url(#neon)" stroke-width="2" opacity=".58" transform="rotate(-14 1028 175)"><animateTransform attributeName="transform" type="rotate" values="-14 1028 175;346 1028 175" dur="18s" repeatCount="indefinite"/></ellipse>
+  <ellipse cx="1028" cy="175" rx="98" ry="23" fill="none" stroke="#67e8f9" stroke-width="1" opacity=".28" transform="rotate(18 1028 175)"><animateTransform attributeName="transform" type="rotate" values="18 1028 175;-342 1028 175" dur="25s" repeatCount="indefinite"/></ellipse>
+  <circle cx="1028" cy="175" r="5" fill="#ecfeff" filter="url(#glow)"/>
+  <circle cx="1028" cy="175" r="96" fill="none" stroke="#38bdf8" stroke-dasharray="2 12" opacity=".38"><animateTransform attributeName="transform" type="rotate" values="0 1028 175;360 1028 175" dur="28s" repeatCount="indefinite"/></circle>
+
+  <path id="packetPath" d="M796 294 C895 248 918 113 1000 90" fill="none" stroke="#22d3ee" opacity=".12"/>
+  <circle r="3.2" fill="#67e8f9" filter="url(#glow)"><animateMotion dur="5.5s" repeatCount="indefinite" path="M796 294 C895 248 918 113 1000 90"/></circle>
+  <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="url(#neon)" stroke-width="1.2" opacity=".38"/>
+</svg>
