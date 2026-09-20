@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-labelledby="title desc">
+  <title id="title">Hiếu Nguyễn engineering profile</title>
+  <desc id="desc">A visual summary of Hiếu Nguyễn's current focus, learning direction, mindset and career goal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06101f"/><stop offset=".52" stop-color="#071429"/><stop offset="1" stop-color="#140b2d"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="1" y="1" width="998" height="468" rx="22" fill="url(#bg)" stroke="#1e3a5f"/>
+  <path d="M38 70H962" stroke="#1e3a5f"/><path d="M512 92V410" stroke="#1e3a5f" stroke-dasharray="4 10" opacity=".7"/>
+  <text x="38" y="44" fill="#67e8f9" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="3">ENGINEERING PROFILE // CURRENT DIRECTION</text>
+
+  <text x="42" y="112" fill="#f8fafc" font-size="26" font-weight="800" font-family="Inter, Segoe UI, Arial, sans-serif">Software Engineering Student</text>
+  <text x="42" y="143" fill="#67e8f9" font-size="18" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">FPT University</text>
+  <text x="42" y="170" fill="#94a3b8" font-size="15" font-family="Inter, Segoe UI, Arial, sans-serif">Backend-focused · System-oriented · Learning through real problems</text>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">
+    <text x="42" y="218" fill="#cbd5e1">I like translating <tspan fill="#67e8f9" font-weight="700">real-world requirements</tspan> into</text>
+    <text x="42" y="246" fill="#cbd5e1"><tspan fill="#f8fafc" font-weight="700">clear system behavior</tspan>, reliable APIs, data models,</text>
+    <text x="42" y="274" fill="#cbd5e1">backend workflows and decisions that make sense for</text>
+    <text x="42" y="302" fill="#cbd5e1">both <tspan fill="#60a5fa" font-weight="700">users</tspan> and <tspan fill="#c084fc" font-weight="700">developers</tspan>.</text>
+  </g>
+
+  <g transform="translate(42 340)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700">
+    <g><rect width="118" height="28" rx="14" fill="#052b38" stroke="#22d3ee"/><text x="59" y="18" text-anchor="middle" fill="#a5f3fc">API DESIGN</text></g>
+    <g transform="translate(130 0)"><rect width="136" height="28" rx="14" fill="#0b2342" stroke="#60a5fa"/><text x="68" y="18" text-anchor="middle" fill="#bfdbfe">DATA MODELING</text></g>
+    <g transform="translate(278 0)"><rect width="150" height="28" rx="14" fill="#23123d" stroke="#a78bfa"/><text x="75" y="18" text-anchor="middle" fill="#ddd6fe">SYSTEM ANALYSIS</text></g>
+    <g transform="translate(0 42)"><rect width="192" height="28" rx="14" fill="#0a2832" stroke="#2dd4bf"/><text x="96" y="18" text-anchor="middle" fill="#ccfbf1">BACKEND WORKFLOWS</text></g>
+    <g transform="translate(204 42)"><rect width="220" height="28" rx="14" fill="#24113a" stroke="#d946ef"/><text x="110" y="18" text-anchor="middle" fill="#fae8ff">AI-ASSISTED ENGINEERING</text></g>
+  </g>
+
+  <g transform="translate(545 96)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <g>
+      <rect width="410" height="72" rx="14" fill="#071a2b" stroke="#22d3ee" opacity=".96"/><rect width="6" height="72" rx="3" fill="#22d3ee"/>
+      <text x="24" y="27" fill="#67e8f9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="2">FOCUS</text>
+      <text x="24" y="52" fill="#e2e8f0" font-size="15">Backend systems · APIs · clean architecture · databases</text>
+    </g>
+    <g transform="translate(0 84)">
+      <rect width="410" height="72" rx="14" fill="#0b1730" stroke="#60a5fa" opacity=".96"/><rect width="6" height="72" rx="3" fill="#60a5fa"/>
+      <text x="24" y="27" fill="#93c5fd" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="2">LEARNING</text>
+      <text x="24" y="52" fill="#e2e8f0" font-size="15">Software architecture · distributed systems · AI workflows</text>
+    </g>
+    <g transform="translate(0 168)">
+      <rect width="410" height="72" rx="14" fill="#17122f" stroke="#a78bfa" opacity=".96"/><rect width="6" height="72" rx="3" fill="#a78bfa"/>
+      <text x="24" y="27" fill="#c4b5fd" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="2">MINDSET</text>
+      <text x="24" y="52" fill="#e2e8f0" font-size="15">Understand reality first → design the system around it</text>
+    </g>
+    <g transform="translate(0 252)">
+      <rect width="410" height="82" rx="14" fill="#20102c" stroke="#d946ef" opacity=".96"/><rect width="6" height="82" rx="3" fill="#d946ef"/>
+      <text x="24" y="27" fill="#f0abfc" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="2">DIRECTION</text>
+      <text x="24" y="51" fill="#e2e8f0" font-size="15">Grow into a strong engineer, then take on deeper</text>
+      <text x="24" y="71" fill="#e2e8f0" font-size="15">senior and architecture responsibilities.</text>
+    </g>
+  </g>
+
+  <circle cx="958" cy="36" r="4" fill="#67e8f9" filter="url(#glow)"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle>
+  <rect x="1" y="1" width="998" height="468" rx="22" fill="none" stroke="url(#edge)" opacity=".24"/>
+</svg>

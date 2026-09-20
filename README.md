@@ -3,15 +3,13 @@
 </p>
 
 <p align="center">
-  <a href="mailto:hieund1775@gmail.com"><img src="https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=7DD3FC" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/hieund-se"><img src="https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=7DD3FC" alt="LinkedIn" /></a>
-  <a href="https://www.facebook.com/nguyen.hieu.196886/"><img src="https://img.shields.io/badge/Facebook-0B1220?style=for-the-badge&logo=facebook&logoColor=7DD3FC" alt="Facebook" /></a>
-  <a href="https://github.com/hieund1775"><img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" /></a>
+  <a href="mailto:hieund1775@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0B1220?style=for-the-badge&logo=gmail&logoColor=67E8F9" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/hieund-se"><img src="https://img.shields.io/badge/LINKEDIN-0B1220?style=for-the-badge&logo=linkedin&logoColor=60A5FA" alt="LinkedIn" /></a>
+  <a href="https://www.facebook.com/nguyen.hieu.196886/"><img src="https://img.shields.io/badge/FACEBOOK-0B1220?style=for-the-badge&logo=facebook&logoColor=A78BFA" alt="Facebook" /></a>
+  <a href="https://github.com/hieund1775"><img src="https://img.shields.io/badge/GITHUB-0B1220?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" /></a>
 </p>
 
-<p align="center">
-  <strong>Think clearly. Design cleanly. Build reliably.</strong>
-</p>
+<p align="center"><strong>Think clearly. Design cleanly. Build reliably.</strong></p>
 
 <br/>
 
@@ -21,21 +19,16 @@
   <img src="./assets/terminal.svg" width="100%" alt="Animated developer terminal" />
 </p>
 
-I'm **Hiếu Nguyễn**, a **Software Engineering student at FPT University** focused on backend engineering and system-oriented problem solving.
-
-I enjoy turning real-world requirements into clean, reliable software — from **API design, backend workflows and data modeling** to **system analysis, task processing, debugging, and architecture-oriented decisions**. I also explore **AI-assisted engineering workflows** to improve analysis, execution, and technical decision-making without losing engineering judgment.
-
-- `FOCUS` → Backend systems, APIs, clean architecture, databases, system analysis
-- `LEARNING` → Software architecture, distributed-system thinking, AI-assisted development
-- `MINDSET` → Understand the problem first, then design the system around reality
-- `GOAL` → Grow into a strong software engineer and eventually take senior/architecture responsibilities on impactful projects
+<p align="center">
+  <img src="./assets/about-panel.svg" width="100%" alt="Engineering profile and direction" />
+</p>
 
 <br/>
 
-## `> TECH.ORBIT`
+## `> SYSTEM.MAP`
 
 <p align="center">
-  <img src="./assets/tech-orbit.svg" width="100%" alt="Animated technology orbit" />
+  <img src="./assets/systems-map.svg" width="100%" alt="Software systems map" />
 </p>
 
 <p align="center">
@@ -47,23 +40,10 @@ I enjoy turning real-world requirements into clean, reliable software — from *
 ## `> FEATURED.SYSTEMS`
 
 <p align="center">
-  <a href="https://github.com/hieund1775/AI-Tasker">
-    <img src="./assets/project-ai-tasker.svg" width="49%" alt="AI-Tasker project" />
-  </a>
-  <a href="https://github.com/hieund1775/OrderStore">
-    <img src="./assets/project-orderstore.svg" width="49%" alt="OrderStore project" />
-  </a>
+  <a href="https://github.com/hieund1775/AI-Tasker"><img src="./assets/project-ai-tasker.svg" width="49%" alt="AI-Tasker project" /></a>
+  <a href="https://github.com/hieund1775/OrderStore"><img src="./assets/project-orderstore.svg" width="49%" alt="OrderStore project" /></a>
 </p>
 
-### 🛰️ AI-Tasker
-A university project where I contribute primarily to the **frontend**, while also supporting **system-flow analysis, requirement clarification, and problem solving** when implementation becomes blocked or unclear. I work across the boundary between UI behavior and overall system logic so the team can make better technical decisions.
-
-`ROLE` Frontend Contributor · System Flow Analyst · Problem Solver
-
-### 🚀 OrderStore
-A real-world project for **Amazing** where I take a leading role in shaping implementation direction. My work includes analyzing practical business scenarios, considering both **user and developer perspectives**, structuring solutions at a system level, and using AI tools as part of an architecture-oriented engineering workflow.
-
-`ROLE` Project Lead / Core Contributor · System Analysis · Architecture-oriented Engineering · AI-assisted Development
 
 <br/>
 
@@ -77,8 +57,6 @@ A real-world project for **Amazing** where I take a leading role in shaping impl
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hieund1775&amp;theme=github_dark&amp;animation=sequence&amp;duration=3&amp;title_color=67e8f9&amp;text_color=cbd5e1&amp;bg_color=020617&amp;border_color=1e3a5f&amp;icon_color=a78bfa&amp;chart_color=22d3ee" width="49%" alt="GitHub stats" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hieund1775&amp;theme=github_dark&amp;animation=draw&amp;duration=3&amp;title_color=67e8f9&amp;text_color=cbd5e1&amp;bg_color=020617&amp;border_color=1e3a5f&amp;icon_color=a78bfa&amp;chart_color=22d3ee" width="49%" alt="Languages by repository" />
 </p>
-
-> These cards reflect public GitHub data and update automatically through the hosted summary-card API.
 
 <br/>
 
@@ -97,15 +75,10 @@ A real-world project for **Amazing** where I take a leading role in shaping impl
 ## `> CONTACT.LINK`
 
 <p align="center">
-  <a href="mailto:hieund1775@gmail.com">Email</a>
-  &nbsp;•&nbsp;
-  <a href="https://www.linkedin.com/in/hieund-se">LinkedIn</a>
-  &nbsp;•&nbsp;
-  <a href="https://www.facebook.com/nguyen.hieu.196886/">Facebook</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/hieund1775">GitHub</a>
+  <a href="mailto:hieund1775@gmail.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/hieund-se"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.facebook.com/nguyen.hieu.196886/"><img src="https://img.shields.io/badge/FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
+  <a href="https://github.com/hieund1775"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
-<p align="center">
-  <sub>Building reliable systems, one clear decision at a time.</sub>
-</p>
+<p align="center"><strong>Think clearly. Design cleanly. Build reliably.</strong></p>
