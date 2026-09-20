@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="260" viewBox="0 0 560 260" role="img" aria-labelledby="title desc">
+  <title id="title">OrderStore project card</title>
+  <desc id="desc">Featured project card for OrderStore.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071020"/><stop offset="1" stop-color="#190e2b"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#60a5fa"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="1" y="1" width="558" height="258" rx="18" fill="url(#bg)" stroke="url(#edge)" opacity="0.98"/>
+  <g transform="translate(500 47)" fill="none" stroke="#c084fc" filter="url(#glow)">
+    <polygon points="0,-24 21,-12 21,12 0,24 -21,12 -21,-12" opacity="0.7"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/></polygon>
+    <circle r="7" fill="#a78bfa" stroke="none"/>
+  </g>
+  <text x="30" y="48" fill="#c4b5fd" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="2">FEATURED // 02</text>
+  <text x="30" y="88" fill="#f8fafc" font-size="31" font-weight="800" font-family="Inter, Segoe UI, Arial, sans-serif">OrderStore</text>
+  <text x="30" y="118" fill="#94a3b8" font-size="15" font-family="Inter, Segoe UI, Arial, sans-serif">Real-world project · Lead / Architecture-oriented role</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+    <text x="30" y="158" fill="#cbd5e1">01  Business scenario &amp; system analysis</text>
+    <text x="30" y="183" fill="#cbd5e1">02  User + developer perspective</text>
+    <text x="30" y="208" fill="#cbd5e1">03  AI-assisted engineering workflow</text>
+  </g>
+  <text x="30" y="240" fill="#64748b" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">OPEN REPOSITORY →</text>
+</svg>
