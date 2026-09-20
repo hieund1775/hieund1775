@@ -35,8 +35,53 @@
   <img src="./assets/systems-map.svg" width="100%" alt="Software systems map" />
 </p>
 
+<br/>
+
+## `> TECH.STACK & TOOLING`
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,nodejs,postgres,mysql,react,ts,docker,aws,supabase,c&amp;theme=dark" alt="Java, Node.js, PostgreSQL, MySQL, React, TypeScript, Docker, AWS, Supabase and C" />
+  <img src="https://skillicons.dev/icons?i=java,ts,c,nodejs,react,html,css,bootstrap,postgres,mysql,supabase,docker,aws,git,arduino,postman,figma&amp;theme=dark&amp;perline=9" alt="Technology stack and tooling" />
+</p>
+
+<h4 align="center">🌐 Programming Languages</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/JAVA-F89820?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&amp;logo=c&amp;logoColor=111827" alt="C" />
+</p>
+
+<h4 align="center">⚙️ Backend & Runtime</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />
+</p>
+
+<h4 align="center">🎨 Frontend & Styling</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=0f172a" alt="React" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/BOOTSTRAP-7952B3?style=for-the-badge&amp;logo=bootstrap&amp;logoColor=white" alt="Bootstrap" />
+</p>
+
+<h4 align="center">🗄️ Databases & Backend Services</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/SUPABASE-3FCF8E?style=for-the-badge&amp;logo=supabase&amp;logoColor=06141d" alt="Supabase" />
+</p>
+
+<h4 align="center">☁️ Cloud, DevOps & Systems</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&amp;logo=amazonwebservices&amp;logoColor=FF9900" alt="AWS" />
+  <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/ARDUINO-00878F?style=for-the-badge&amp;logo=arduino&amp;logoColor=white" alt="Arduino" />
+</p>
+
+<h4 align="center">🧰 Tools & Design</h4>
+<p align="center">
+  <img src="https://img.shields.io/badge/POSTMAN-FF6C37?style=for-the-badge&amp;logo=postman&amp;logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/FIGMA-F24E1E?style=for-the-badge&amp;logo=figma&amp;logoColor=white" alt="Figma" />
 </p>
 
 <br/>
