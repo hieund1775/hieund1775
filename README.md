@@ -108,14 +108,14 @@
 
 <br/>
 
-## `> CONTRIBUTION.SNAKE`
+## `> CONTRIBUTION.MISSION`
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hieund1775/hieund1775/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hieund1775/hieund1775/output/github-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/hieund1775/hieund1775/output/github-snake-dark.svg" />
-  </picture>
+  <img src="./game.gif" width="100%" alt="GitHub contribution space shooter" />
+</p>
+
+<p align="center">
+  <sub>Turning contribution history into a space mission.</sub>
 </p>
 
 <br/>
