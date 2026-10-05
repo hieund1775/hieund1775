@@ -84,7 +84,7 @@
 
 <p align="center">
   <img
-    src="https://github-profile-trophy.vercel.app/?username=hieund1775&theme=algolia&no-frame=true&no-bg=true&row=1&column=6"
+    src="https://github-trophies.vercel.app/?username=hieund1775&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8"
     width="100%"
     alt="GitHub trophies"
   />
