@@ -74,11 +74,16 @@
 ## `> GITHUB.TELEMETRY`
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hieund1775&theme=github_dark&animation=load&duration=3&title_color=67e8f9&text_color=cbd5e1&bg_color=020617&border_color=1e3a5f&icon_color=a78bfa&chart_color=22d3ee" width="100%" alt="GitHub profile details" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=hieund1775&theme=github-dark-blue&hide_border=true&background=020617&ring=60A5FA&fire=A78BFA&currStreakLabel=67E8F9&sideNums=67E8F9&currStreakNum=A78BFA&dates=CBD5E1&sideLabels=CBD5E1" width="70%" alt="GitHub streak stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hieund1775&theme=github_dark&animation=sequence&duration=3&title_color=67e8f9&text_color=cbd5e1&bg_color=020617&border_color=1e3a5f&icon_color=a78bfa&chart_color=22d3ee" width="55%" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=hieund1775&show_icons=true&theme=transparent&hide_border=true&title_color=67E8F9&text_color=CBD5E1&icon_color=A78BFA&ring_color=60A5FA&bg_color=00000000" width="49%" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieund1775&layout=compact&theme=transparent&hide_border=true&title_color=67E8F9&text_color=CBD5E1&icon_color=A78BFA&bg_color=00000000" width="49%" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=hieund1775&theme=algolia&no-frame=true&no-bg=true&row=2&column=4&margin-w=15&margin-h=15" width="100%" alt="GitHub trophies" />
 </p>
 
 <br/>
