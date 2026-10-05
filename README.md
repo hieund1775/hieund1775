@@ -82,6 +82,8 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieund1775&layout=compact&theme=transparent&hide_border=true&title_color=67E8F9&text_color=CBD5E1&icon_color=A78BFA&bg_color=00000000" width="49%" alt="Top languages" />
 </p>
 
+## 🏆 GitHub Trophies
+
 <p align="center">
   <img
     src="https://github-trophies.vercel.app/?username=hieund1775&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8"
