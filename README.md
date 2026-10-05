@@ -83,7 +83,11 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hieund1775&theme=algolia&no-frame=true&no-bg=true&row=2&column=4&margin-w=15&margin-h=15" width="100%" alt="GitHub trophies" />
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=hieund1775&theme=react-dark&hide_border=true&area=true"
+    width="100%"
+    alt="GitHub activity graph"
+  />
 </p>
 
 <br/>
