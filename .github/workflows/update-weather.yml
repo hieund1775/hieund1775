@@ -1,0 +1,88 @@
+name: Update Mini Weather
+
+on:
+  schedule:
+    - cron: "12 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-weather:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch weather and generate SVG
+        shell: python
+        run: |
+          import json
+          import os
+          import urllib.request
+          from pathlib import Path
+
+          url = (
+              "https://api.open-meteo.com/v1/forecast"
+              "?latitude=10.8231"
+              "&longitude=106.6297"
+              "&current=temperature_2m,weather_code"
+              "&timezone=Asia%2FHo_Chi_Minh"
+          )
+
+          with urllib.request.urlopen(url, timeout=20) as response:
+              data = json.load(response)
+
+          current = data["current"]
+          temperature = round(float(current["temperature_2m"]))
+          code = int(current["weather_code"])
+
+          if code == 0:
+              icon = "☀️"
+          elif code in (1, 2):
+              icon = "🌤️"
+          elif code == 3:
+              icon = "☁️"
+          elif code in (45, 48):
+              icon = "🌫️"
+          elif code in (51, 53, 55, 56, 57, 61, 63, 65, 66, 67):
+              icon = "🌧️"
+          elif code in (71, 73, 75, 77, 85, 86):
+              icon = "❄️"
+          elif code in (80, 81, 82):
+              icon = "🌦️"
+          elif code in (95, 96, 99):
+              icon = "⛈️"
+          else:
+              icon = "🌤️"
+
+          svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="470" height="38" viewBox="0 0 470 38">
+            <rect x="0.5" y="0.5" width="469" height="37" rx="18.5" fill="#0F172A" stroke="#1E3A5F"/>
+            <circle cx="22" cy="19" r="4" fill="#22D3EE">
+              <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+            </circle>
+            <text x="235" y="20" text-anchor="middle" dominant-baseline="middle"
+                  fill="#CBD5E1" font-size="13"
+                  font-family="Inter,Segoe UI Emoji,Apple Color Emoji,Noto Color Emoji,Segoe UI,Arial,sans-serif">
+              {icon} Ho Chi Minh City · {temperature}°C · Updated hourly
+            </text>
+          </svg>
+          """
+
+          Path("assets").mkdir(parents=True, exist_ok=True)
+          Path("assets/weather.svg").write_text(svg, encoding="utf-8")
+
+      - name: Commit weather update
+        run: |
+          if git diff --quiet -- assets/weather.svg; then
+            echo "Weather has not changed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/weather.svg
+          git commit -m "chore(profile): update mini weather"
+          git push
