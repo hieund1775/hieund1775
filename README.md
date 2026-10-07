@@ -29,11 +29,12 @@
 
 <!-- SYSTEM IDENTITY -->
 
-<p align="left">
-  <img
-    src="https://img.shields.io/badge/%3E%20SYSTEM.IDENTITY-1E293B?style=for-the-badge&logo=gnometerminal&logoColor=67E8F9"
-    alt="System Identity"
-  />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/01-system-identity.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/01-system-identity.svg" />
+    <img src="./assets/sections/dark/01-system-identity.svg" width="100%" alt="System Identity" />
+  </picture>
 </p>
 
 <p align="center">
@@ -48,11 +49,12 @@
 
 <!-- TECH STACK -->
 
-<p align="left">
-  <img
-    src="https://img.shields.io/badge/%3E%20TECH.STACK%20%26%20TOOLING-1E293B?style=for-the-badge&logo=visualstudiocode&logoColor=A78BFA"
-    alt="Tech Stack and Tooling"
-  />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/02-tech-stack.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/02-tech-stack.svg" />
+    <img src="./assets/sections/dark/02-tech-stack.svg" width="100%" alt="Tech Stack" />
+  </picture>
 </p>
 
 <p align="center">
@@ -114,11 +116,12 @@
 
 <!-- GITHUB TELEMETRY -->
 
-<p align="left">
-  <img
-    src="https://img.shields.io/badge/%3E%20GITHUB.TELEMETRY-1E293B?style=for-the-badge&logo=github&logoColor=67E8F9"
-    alt="GitHub Telemetry"
-  />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/03-github-telemetry.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/03-github-telemetry.svg" />
+    <img src="./assets/sections/dark/03-github-telemetry.svg" width="100%" alt="GitHub Telemetry" />
+  </picture>
 </p>
 
 <p align="center">
@@ -146,11 +149,12 @@
 
 <!-- GITHUB TROPHIES -->
 
-<p align="left">
-  <img
-    src="https://img.shields.io/badge/%3E%20GITHUB.TROPHIES-1E293B?style=for-the-badge&logo=github&logoColor=FACC15"
-    alt="GitHub Trophies"
-  />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/04-achievements.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/04-achievements.svg" />
+    <img src="./assets/sections/dark/04-achievements.svg" width="100%" alt="Achievements" />
+  </picture>
 </p>
 
 <p align="center">
@@ -165,11 +169,12 @@
 
 <!-- CONTRIBUTION MISSION -->
 
-<p align="left">
-  <img
-    src="https://img.shields.io/badge/%3E%20CONTRIBUTION.MISSION-1E293B?style=for-the-badge&logo=githubactions&logoColor=A78BFA"
-    alt="Contribution Mission"
-  />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/05-contribution-mission.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/05-contribution-mission.svg" />
+    <img src="./assets/sections/dark/05-contribution-mission.svg" width="100%" alt="Contribution Mission" />
+  </picture>
 </p>
 
 <p align="center">
@@ -188,11 +193,12 @@
 
 <!-- CONTACT -->
 
-<p align="left">
-  <img
-    src="https://img.shields.io/badge/%3E%20CONTACT.LINK-1E293B?style=for-the-badge&logo=linktree&logoColor=67E8F9"
-    alt="Contact Link"
-  />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/06-contact.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/06-contact.svg" />
+    <img src="./assets/sections/dark/06-contact.svg" width="100%" alt="Contact" />
+  </picture>
 </p>
 
 <p align="center">
