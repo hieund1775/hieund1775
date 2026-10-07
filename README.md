@@ -21,9 +21,9 @@
   <strong>Think clearly. Design cleanly. Build reliably.</strong>
 </p>
 
-<p align="center">
-  <img src="./assets/weather.svg" alt="Current weather in Ho Chi Minh City" />
-</p>
+<!-- WEATHER_START -->
+<p align="center">🌤 Ho Chi Minh City · 07/10/2026 · 29°C</p>
+<!-- WEATHER_END -->
 
 <br/>
 
