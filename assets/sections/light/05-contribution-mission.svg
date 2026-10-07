@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="90" viewBox="0 0 1000 90">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#CBD5E1" stop-opacity="0.12"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <g opacity="0.42">
+    <path d="M0 83 H1000" stroke="#E2E8F0" stroke-width="1"/>
+    <path d="M160 0 V90" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="2 8"/>
+  </g>
+
+  <circle cx="22" cy="26" r="7" fill="#7C3AED" opacity="0.10" filter="url(#softGlow)"/>
+  <circle cx="22" cy="26" r="3.5" fill="#7C3AED"/>
+
+  <text x="42" y="31"
+        fill="#7C3AED"
+        font-family="JetBrains Mono, Fira Code, Consolas, monospace"
+        font-size="15"
+        font-weight="700"
+        letter-spacing="1.4">05 //</text>
+
+  <text x="108" y="31"
+        fill="#0F172A"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="22"
+        font-weight="800"
+        letter-spacing="0.7">CONTRIBUTION.MISSION</text>
+
+  <line x1="360" y1="25.5" x2="970" y2="25.5" stroke="url(#lineGrad)" stroke-width="1.5"/>
+
+  <circle cx="973" cy="25.5" r="3.2" fill="#7C3AED">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="42" y="62"
+        fill="#475569"
+        font-family="JetBrains Mono, Fira Code, Consolas, monospace"
+        font-size="12"
+        letter-spacing="0.8">contribution history turned into motion</text>
+
+  <rect x="42" y="73" width="96" height="2" rx="1" fill="#7C3AED" opacity="0.78"/>
+  <rect x="144" y="73" width="26" height="2" rx="1" fill="#7C3AED" opacity="0.28"/>
+</svg>
