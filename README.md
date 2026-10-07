@@ -21,6 +21,10 @@
   <strong>Think clearly. Design cleanly. Build reliably.</strong>
 </p>
 
+<p align="center">
+  <img src="./assets/weather.svg" alt="Current weather in Ho Chi Minh City" />
+</p>
+
 <br/>
 
 <!-- SYSTEM IDENTITY -->
@@ -210,9 +214,10 @@
 </p>
 
 <p align="center">
-  <sub>
-    Open to engineering discussions, collaboration, and learning from real systems.
-  </sub>
+  <img
+    src="https://komarev.com/ghpvc/?username=hieund1775&label=PROFILE%20VIEWS&color=0EA5E9&style=flat-square&abbreviated=true"
+    alt="Profile views"
+  />
 </p>
 
 <p align="center">
