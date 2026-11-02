@@ -22,7 +22,7 @@
 </p>
 
 <!-- WEATHER_START -->
-<p align="center">☀️ Ho Chi Minh City · 02/11/2026 · 33°C</p>
+<p align="center">🌤 Ho Chi Minh City · 03/11/2026 · 26°C</p>
 <!-- WEATHER_END -->
 
 <br/>
