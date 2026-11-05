@@ -22,7 +22,7 @@
 </p>
 
 <!-- WEATHER_START -->
-<p align="center">🌤 Ho Chi Minh City · 07/10/2026 · 29°C</p>
+<p align="center">☀️ Ho Chi Minh City · 05/11/2026 · 29°C</p>
 <!-- WEATHER_END -->
 
 <br/>
@@ -134,12 +134,12 @@
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=hieund1775&show_icons=true&theme=transparent&hide_border=true&title_color=67E8F9&text_color=CBD5E1&icon_color=A78BFA&ring_color=60A5FA&bg_color=00000000"
+    src="https://github-stats-extended.vercel.app/api?username=hieund1775&show_icons=true&theme=transparent&hide_border=true&title_color=67E8F9&text_color=CBD5E1&icon_color=A78BFA&ring_color=60A5FA&bg_color=00000000"
     width="49%"
     alt="GitHub stats"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieund1775&layout=compact&theme=transparent&hide_border=true&title_color=67E8F9&text_color=CBD5E1&icon_color=A78BFA&bg_color=00000000"
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=hieund1775&layout=compact&theme=transparent&hide_border=true&title_color=67E8F9&text_color=CBD5E1&icon_color=A78BFA&bg_color=00000000"
     width="49%"
     alt="Top languages"
   />
