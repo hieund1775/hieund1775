@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+      <rect x="8" y="8" width="984" height="244" rx="22" fill="#090F1D" stroke="#294364"/>
+      <rect x="40" y="40" width="5" height="48" rx="2" fill="#67E8F9"/>
+      <text x="62" y="56" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#67E8F9" letter-spacing="2">ENGINEERING / LIVE METRICS</text>
+      <text x="62" y="94" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700" fill="#E9F2FC">Development overview</text>
+      <rect x="40" y="126" width="920" height="88" rx="14" fill="#101D31"/>
+      <text x="500" y="175" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" fill="#E9F2FC">Awaiting first GitHub Actions sync...</text>
+      <text x="500" y="197" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#67E8F9">No sample statistics published</text>
+    </svg>

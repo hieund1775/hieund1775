@@ -125,24 +125,11 @@
 </p>
 
 <p align="center">
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com?user=hieund1775&theme=github-dark-blue&hide_border=true&background=020617&ring=60A5FA&fire=A78BFA&currStreakLabel=67E8F9&sideNums=67E8F9&currStreakNum=A78BFA&dates=CBD5E1&sideLabels=CBD5E1"
-    width="70%"
-    alt="GitHub streak stats"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-stats-extended.vercel.app/api?username=hieund1775&show_icons=true&theme=transparent&hide_border=true&title_color=67E8F9&text_color=CBD5E1&icon_color=A78BFA&ring_color=60A5FA&bg_color=00000000"
-    width="49%"
-    alt="GitHub stats"
-  />
-  <img
-    src="https://github-stats-extended.vercel.app/api/top-langs/?username=hieund1775&layout=compact&theme=transparent&hide_border=true&title_color=67E8F9&text_color=CBD5E1&icon_color=A78BFA&bg_color=00000000"
-    width="49%"
-    alt="Top languages"
-  />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/github-telemetry-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/generated/github-telemetry-light.svg" />
+    <img src="./assets/generated/github-telemetry-dark.svg" width="100%" alt="Live GitHub engineering telemetry dashboard" />
+  </picture>
 </p>
 
 <br/>

@@ -1,0 +1,67 @@
+name: Update Engineering Telemetry
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_telemetry.py'
+      - 'tests/test_telemetry.py'
+      - '.github/workflows/update-telemetry.yml'
+  schedule:
+    - cron: '37 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: engineering-telemetry
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate telemetry logic and SVG rendering
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate telemetry from GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_telemetry.py --username hieund1775
+
+      - name: Commit updated SVGs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/generated/github-telemetry-dark.svg assets/generated/github-telemetry-light.svg
+          if git diff --cached --quiet; then
+            echo 'Telemetry unchanged.'
+            exit 0
+          fi
+          git commit -m 'chore(profile): refresh engineering telemetry'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo 'Updated telemetry pushed successfully.'
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt; retrying..."
+            sleep $((attempt * 4))
+          done
+          echo 'Failed to push telemetry after retries.' >&2
+          exit 1
