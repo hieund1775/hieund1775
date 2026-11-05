@@ -43,14 +43,16 @@ query ProfileTelemetry($login: String!, $from: DateTime!, $to: DateTime!) {
 
 THEMES = {
     "dark": {
-        "bg": "#090F1D", "panel": "#101D31", "surface": "#14243A", "stroke": "#294364",
-        "text": "#E9F2FC", "muted": "#A0B1C7", "faint": "#6D839F", "track": "#243852",
-        "cyan": "#67E8F9", "violet": "#B39AFF", "blue": "#68A7FF", "other": "#5A779D",
+        "panel": "#191E2E", "secondary": "#141C2D", "stroke": "#303B55",
+        "text": "#F2F6FD", "muted": "#BBC9E1", "faint": "#8193AF", "track": "#2D3853",
+        "cyan": "#66D9EA", "violet": "#C3A4F7", "blue": "#77A6FA", "other": "#627BA1",
+        "divider": "#42506A", "eyebrow": "#8EA9CC", "hero_a": "#1B2031", "hero_b": "#1A1B30",
     },
     "light": {
-        "bg": "#FFFFFF", "panel": "#F8FAFE", "surface": "#EDF4FC", "stroke": "#C5D5E9",
-        "text": "#12233B", "muted": "#475B76", "faint": "#697F9B", "track": "#D9E5F2",
-        "cyan": "#087E9D", "violet": "#7351D3", "blue": "#2563B8", "other": "#7F93B0",
+        "panel": "#FFFFFF", "secondary": "#F6F8FD", "stroke": "#D7DFEF",
+        "text": "#16233C", "muted": "#4B5D7B", "faint": "#637897", "track": "#E3EAF4",
+        "cyan": "#087D98", "violet": "#7551BD", "blue": "#2D66BA", "other": "#8A9AB0",
+        "divider": "#D1DCEB", "eyebrow": "#526989", "hero_a": "#F7F9FE", "hero_b": "#F5F4FC",
     },
 }
 
@@ -208,71 +210,113 @@ def language_rows(data: dict, limit=3):
 
 
 def render_svg(data: dict, theme: str, *, demo=False) -> str:
+    """Compact analytics inspired by classic three-column streak cards.
+
+    One wide streak panel sits over two balanced cards. SVG remains self-contained
+    (no external fonts, HTML or JS), works in GitHub's image proxy and is rendered
+    in dedicated dark/light variants. Values are computed from API data.
+    """
+    if theme not in THEMES:
+        raise ValueError(f"Unsupported theme: {theme}")
     p = THEMES[theme]
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-label="GitHub development overview for {escape(data["username"])}">']
-    out.append('<defs>')
-    out.append(f'<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="{p["cyan"]}" stop-opacity="0.65"/><stop offset="45%" stop-color="{p["blue"]}" stop-opacity="0.35"/><stop offset="100%" stop-color="{p["violet"]}" stop-opacity="0.55"/></linearGradient>')
-    out.append('</defs>')
-    out.append(r(8, 8, 984, 574, p['bg'], 23, 'url(#edge)'))
-    out.append(r(32, 32, 5, 54, p['cyan'], 2))
-    out.append(t(52, 50, "ENGINEERING / LIVE METRICS", size=12, color=p['cyan'], weight=700, spacing=2))
-    out.append(t(52, 86, "Development overview", size=29, color=p['text'], weight=760))
-    out.append(r(792, 47, 150, 34, p['surface'], 17, p['stroke']))
-    out.append('<circle cx="812" cy="64" r="4" fill="' + p['cyan'] + '"/>')
-    out.append(t(827, 69, "GITHUB DATA", size=12, color=p['muted'], weight=650, spacing=1))
-    out.append(f'<path d="M52 111 H948" stroke="{p["stroke"]}" stroke-width="1"/>')
-
-    cards = [
-        (52, 'contributions', "CONTRIBUTIONS", "LAST 365 DAYS", 'cyan'),
-        (356, 'current_streak', "CURRENT STREAK", "CONSECUTIVE DAYS", 'violet'),
-        (660, 'longest_streak', "LONGEST STREAK", "IN LAST 365 DAYS", 'blue'),
+    out = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="552" '
+        f'viewBox="0 0 1000 552" role="img" aria-label="GitHub contribution analytics for {escape(data["username"])}">'
     ]
-    for x, key, label, sub, color_key in cards:
-        out.append(r(x, 137, 288, 126, p['surface'], 14, p['stroke']))
-        out.append(r(x + 16, 157, 4, 22, p[color_key], 2))
-        out.append(t(x + 30, 174, label, size=13, color=p['muted'], weight=650, spacing=0.8))
-        out.append(t(x + 22, 229, format_count(data[key]), size=44, color=p[color_key], weight=760))
-        out.append(t(x + 224, 245, sub, size=10, color=p['faint'], anchor='end', weight=600))
+    out.extend([
+        '<defs>',
+        '<linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">'
+        f'<stop offset="0%" stop-color="{p["hero_a"]}"/>'
+        f'<stop offset="100%" stop-color="{p["hero_b"]}"/>'
+        '</linearGradient>',
+        '<linearGradient id="streakRing" x1="0" y1="0" x2="1" y2="1">'
+        f'<stop offset="0%" stop-color="{p["blue"]}"/>'
+        f'<stop offset="100%" stop-color="{p["violet"]}"/>'
+        '</linearGradient>',
+        '</defs>',
+    ])
+    # Deliberately transparent outer canvas so each block breathes on GitHub.
+    # Top: classic 3-column streak card, balanced against the two cards below.
+    out.append(r(125, 12, 750, 224, 'url(#hero)', 17, p['stroke']))
+    out.append(t(154, 46, 'GITHUB  /  CONTRIBUTION STREAK', size=14, color=p['eyebrow'], weight=700, spacing=1.25))
+    out.append(t(846, 46, 'LAST 365 DAYS', size=12, color=p['faint'], weight=600, anchor='end', spacing=0.8))
+    out.append(f'<path d="M373 74 V206 M626 74 V206" stroke="{p["divider"]}" stroke-width="1"/>')
 
-    # Unified lower row, separate modules in same design system.
-    lx, rx, y, h = 52, 510, 286, 248
-    out.append(r(lx, y, 438, h, p['panel'], 16, p['stroke']))
-    out.append(r(rx, y, 438, h, p['panel'], 16, p['stroke']))
-    out.append(t(lx + 22, y + 36, "Development activity", size=19, color=p['text'], weight=740))
-    out.append(t(rx + 22, y + 36, "Code distribution", size=19, color=p['text'], weight=740))
-    out.append(t(lx + 22, y + 60, "PUBLIC CONTRIBUTIONS · 365 DAYS", size=10, color=p['faint'], weight=650, spacing=0.9))
-    out.append(t(rx + 22, y + 60, "OWNED PUBLIC REPOS · CODE BYTES", size=10, color=p['faint'], weight=650, spacing=0.9))
+    out.append(t(248, 126, format_count(data['contributions']), size=48, color=p['blue'], weight=780, anchor='middle'))
+    out.append(t(248, 163, 'Total contributions', size=18, color=p['text'], anchor='middle', weight=650))
+    out.append(t(248, 194, 'GitHub activity', size=13, color=p['muted'], anchor='middle'))
 
-    # Main activity value + two side values.
-    out.append(t(lx + 24, y + 135, format_count(data['commits']), size=45, color=p['cyan'], weight=740))
-    out.append(t(lx + 24, y + 158, "Commits", size=13, color=p['muted']))
-    out.append(f'<path d="M{lx+190} {y+82} V{y+170}" stroke="{p["stroke"]}"/>')
-    out.append(t(lx + 218, y + 122, format_count(data['pull_requests']), size=29, color=p['violet'], weight=700))
-    out.append(t(lx + 218, y + 144, "Pull requests", size=12, color=p['muted']))
-    out.append(t(lx + 344, y + 122, format_count(data['issues']), size=29, color=p['blue'], weight=700))
-    out.append(t(lx + 344, y + 144, "Issues", size=12, color=p['muted']))
-    out.append(f'<path d="M{lx+22} {y+185} H{lx+416}" stroke="{p["stroke"]}"/>')
-    out.append(t(lx + 24, y + 216, f"★ {format_count(data['stars'])} stars earned", size=13, color=p['muted'], weight=570))
-    out.append(t(lx + 244, y + 216, f"{format_count(data['reviews'])} PR reviews", size=13, color=p['muted'], weight=570))
+    # The center ring is intentionally the focal point, as in the reference.
+    out.append(f'<circle cx="500" cy="129" r="50" fill="none" stroke="{p["track"]}" stroke-width="7"/>')
+    out.append(f'<circle cx="500" cy="129" r="50" fill="none" stroke="url(#streakRing)" '
+               'stroke-width="7" stroke-linecap="round" stroke-dasharray="276 38" transform="rotate(-90 500 129)"/>')
+    out.append(t(500, 145, format_count(data['current_streak']), size=45, color=p['violet'], weight=780, anchor='middle'))
+    out.append(f'<path d="M499 71 C488 62,492 54,496 49 C497 57,501 58,504 53 '
+               'C516 64,510 76,502 79 C495 80,491 75,493 68 Z" '
+               f'fill="{p["violet"]}" stroke="{p["hero_a"]}" stroke-width="3"/>')
+    out.append(t(500, 204, 'Current streak', size=18, color=p['text'], anchor='middle', weight=690))
+
+    out.append(t(750, 126, format_count(data['longest_streak']), size=48, color=p['blue'], weight=780, anchor='middle'))
+    out.append(t(750, 163, 'Longest streak', size=18, color=p['text'], anchor='middle', weight=650))
+    out.append(t(750, 194, 'In the last 365 days', size=13, color=p['muted'], anchor='middle'))
+
+    # Bottom left: intentionally removes the opaque 'C+' grade.
+    lx, ly, lw, lh = 23, 266, 465, 272
+    rx = 512
+    out.append(r(lx, ly, lw, lh, p['panel'], 16, p['stroke']))
+    out.append(r(rx, ly, lw, lh, p['panel'], 16, p['stroke']))
+    out.append(r(lx + 22, ly + 22, 4, 31, p['cyan'], 2))
+    out.append(t(lx + 39, ly + 44, 'GitHub activity', size=22, color=p['text'], weight=740))
+    out.append(t(lx + 25, ly + 75, 'CONTRIBUTION EVENTS  ·  LAST 365 DAYS', size=12, color=p['faint'], weight=590, spacing=0.35))
+
+    out.append(t(lx + 30, ly + 152, format_count(data['commits']), size=49, color=p['cyan'], weight=770))
+    out.append(t(lx + 31, ly + 177, 'Commits', size=16, color=p['muted']))
+    out.append(f'<path d="M{lx+218} {ly+101} V{ly+187}" stroke="{p["divider"]}"/>')
+    out.append(t(lx + 241, ly + 143, format_count(data['pull_requests']), size=32, color=p['violet'], weight=750))
+    out.append(t(lx + 241, ly + 170, 'Pull requests', size=14, color=p['muted']))
+    out.append(t(lx + 365, ly + 143, format_count(data['issues']), size=32, color=p['blue'], weight=750))
+    out.append(t(lx + 365, ly + 170, 'Issues', size=14, color=p['muted']))
+    out.append(f'<path d="M{lx+25} {ly+206} H{lx+440}" stroke="{p["divider"]}"/>')
+    out.append(t(lx + 30, ly + 239, f"★ {format_count(data['stars'])} stars", size=15, color=p['muted'], weight=600))
+    out.append(t(lx + 260, ly + 239, f"{format_count(data['reviews'])} code reviews", size=15, color=p['muted'], weight=600))
+
+    # Bottom right: a single comparison bar plus 2x2 legend, rather than
+    # tiny dense percent rows. 'Other' is merged, not falsely labelled skill.
+    out.append(r(rx + 22, ly + 22, 4, 31, p['violet'], 2))
+    out.append(t(rx + 39, ly + 44, 'Languages by code', size=22, color=p['text'], weight=740))
+    out.append(t(rx + 25, ly + 75, 'OWNED PUBLIC REPOS  ·  CODE BYTES', size=12, color=p['faint'], weight=590, spacing=0.35))
 
     rows = language_rows(data['languages'])
     if not rows:
-        out.append(t(rx + 25, y + 136, "No public language data yet", size=15, color=p['muted']))
+        out.append(t(rx + 27, ly + 151, 'No public language data yet', size=17, color=p['muted']))
     else:
+        bar_x, bar_y, bar_w, bar_h = rx + 27, ly + 110, 409, 14
+        out.append(r(bar_x, bar_y, bar_w, bar_h, p['track'], 7))
+        accum = 0.0
         for i, (name, pct) in enumerate(rows):
+            width = min(bar_w - accum, max(0.0, bar_w * pct / 100.0))
+            if width > 0.05:
+                out.append(r(round(bar_x + accum, 2), bar_y, round(width, 2), bar_h,
+                             p[COLORS[min(i, 3)]], 1))
+            accum += width
+        # Each item has a generous hit-area for readability after GitHub scales.
+        for i, (name, pct) in enumerate(rows[:4]):
+            col, row = i % 2, i // 2
+            x = rx + 28 + col * 210
+            y = ly + 160 + row * 48
             color = p[COLORS[min(i, 3)]]
-            ry = y + 95 + i * 36
-            out.append(t(rx + 24, ry, name[:19], size=14, color=p['text'], weight=590))
-            out.append(t(rx + 414, ry, f"{pct:.1f}%", size=13, color=p['muted'], weight=600, anchor="end"))
-            out.append(r(rx + 24, ry + 10, 390, 6, p['track'], 3))
-            if pct > 0:
-                out.append(r(rx + 24, ry + 10, round(390 * pct / 100, 2), 6, color, 3))
+            out.append(f'<circle cx="{x+7}" cy="{y-5}" r="6" fill="{color}"/>')
+            # Enforce short labels: language names originate from GitHub API.
+            out.append(t(x + 21, y, name[:16], size=15, color=p['text'], weight=600))
+            out.append(t(x + 181, y, f"{pct:.1f}%", size=14, color=p['muted'],
+                         weight=600, anchor='end'))
 
-    out.append(t(52, 566, "SOURCE: GITHUB GRAPHQL + PUBLIC REPOSITORY LANGUAGE DATA", size=10, color=p['faint'], weight=600, spacing=0.5))
-    out.append(t(948, 566, "UPDATED " + data['as_of'], size=10, color=p['muted'], weight=600, anchor="end"))
     if demo:
-        out.append(r(812, 118, 136, 20, p['violet'], 5))
-        out.append(t(880, 132, "PREVIEW DATA", size=10, color=p['bg'], weight=700, anchor='middle'))
+        out.append(t(846, 222, 'DESIGN PREVIEW · DEMO', size=11, color=p['faint'],
+                     weight=700, anchor='end'))
+    else:
+        out.append(t(846, 222, 'UPDATED ' + data['as_of'], size=11,
+                     color=p['faint'], weight=650, anchor='end'))
     out.append('</svg>')
     return '\n'.join(out) + '\n'
 
@@ -286,10 +330,10 @@ def main():
 
     if args.demo:
         payload = {
-            "username": args.username, "as_of": "2026-11-05", "contributions": 722,
-            "current_streak": 10, "longest_streak": 24, "commits": 578,
+            "username": args.username, "as_of": "2026-11-06", "contributions": 723,
+            "current_streak": 10, "longest_streak": 24, "commits": 579,
             "pull_requests": 29, "issues": 0, "reviews": 0, "stars": 1,
-            "public_repos": 5, "languages": {"JavaScript": 6024, "TypeScript": 3031, "C#": 722, "Other": 123},
+            "public_repos": 5, "languages": {"JavaScript": 5970, "TypeScript": 3000, "C#": 710, "Other": 310},
         }
     else:
         payload = collect_live(args.username, os.getenv("GITHUB_TOKEN", ""))
