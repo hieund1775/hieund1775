@@ -1,9 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
-      <rect x="8" y="8" width="984" height="244" rx="22" fill="#090F1D" stroke="#294364"/>
-      <rect x="40" y="40" width="5" height="48" rx="2" fill="#67E8F9"/>
-      <text x="62" y="56" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#67E8F9" letter-spacing="2">ENGINEERING / LIVE METRICS</text>
-      <text x="62" y="94" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700" fill="#E9F2FC">Development overview</text>
-      <rect x="40" y="126" width="920" height="88" rx="14" fill="#101D31"/>
-      <text x="500" y="175" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" fill="#E9F2FC">Awaiting first GitHub Actions sync...</text>
-      <text x="500" y="197" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#67E8F9">No sample statistics published</text>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-label="GitHub development overview for hieund1775">
+<defs>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#67E8F9" stop-opacity="0.65"/><stop offset="45%" stop-color="#68A7FF" stop-opacity="0.35"/><stop offset="100%" stop-color="#B39AFF" stop-opacity="0.55"/></linearGradient>
+</defs>
+<rect x="8" y="8" width="984" height="574" rx="23" fill="#090F1D" stroke="url(#edge)" stroke-width="1" />
+<rect x="32" y="32" width="5" height="54" rx="2" fill="#67E8F9" />
+<text x="52" y="50" font-size="12" fill="#67E8F9" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="2">ENGINEERING / LIVE METRICS</text>
+<text x="52" y="86" font-size="29" fill="#E9F2FC" font-weight="760" font-family="Inter,Segoe UI,Arial,sans-serif">Development overview</text>
+<rect x="792" y="47" width="150" height="34" rx="17" fill="#14243A" stroke="#294364" stroke-width="1" />
+<circle cx="812" cy="64" r="4" fill="#67E8F9"/>
+<text x="827" y="69" font-size="12" fill="#A0B1C7" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="1">GITHUB DATA</text>
+<path d="M52 111 H948" stroke="#294364" stroke-width="1"/>
+<rect x="52" y="137" width="288" height="126" rx="14" fill="#14243A" stroke="#294364" stroke-width="1" />
+<rect x="68" y="157" width="4" height="22" rx="2" fill="#67E8F9" />
+<text x="82" y="174" font-size="13" fill="#A0B1C7" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="0.8">CONTRIBUTIONS</text>
+<text x="74" y="229" font-size="44" fill="#67E8F9" font-weight="760" font-family="Inter,Segoe UI,Arial,sans-serif">723</text>
+<text x="276" y="245" font-size="10" fill="#6D839F" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">LAST 365 DAYS</text>
+<rect x="356" y="137" width="288" height="126" rx="14" fill="#14243A" stroke="#294364" stroke-width="1" />
+<rect x="372" y="157" width="4" height="22" rx="2" fill="#B39AFF" />
+<text x="386" y="174" font-size="13" fill="#A0B1C7" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="0.8">CURRENT STREAK</text>
+<text x="378" y="229" font-size="44" fill="#B39AFF" font-weight="760" font-family="Inter,Segoe UI,Arial,sans-serif">10</text>
+<text x="580" y="245" font-size="10" fill="#6D839F" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">CONSECUTIVE DAYS</text>
+<rect x="660" y="137" width="288" height="126" rx="14" fill="#14243A" stroke="#294364" stroke-width="1" />
+<rect x="676" y="157" width="4" height="22" rx="2" fill="#68A7FF" />
+<text x="690" y="174" font-size="13" fill="#A0B1C7" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="0.8">LONGEST STREAK</text>
+<text x="682" y="229" font-size="44" fill="#68A7FF" font-weight="760" font-family="Inter,Segoe UI,Arial,sans-serif">24</text>
+<text x="884" y="245" font-size="10" fill="#6D839F" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">IN LAST 365 DAYS</text>
+<rect x="52" y="286" width="438" height="248" rx="16" fill="#101D31" stroke="#294364" stroke-width="1" />
+<rect x="510" y="286" width="438" height="248" rx="16" fill="#101D31" stroke="#294364" stroke-width="1" />
+<text x="74" y="322" font-size="19" fill="#E9F2FC" font-weight="740" font-family="Inter,Segoe UI,Arial,sans-serif">Development activity</text>
+<text x="532" y="322" font-size="19" fill="#E9F2FC" font-weight="740" font-family="Inter,Segoe UI,Arial,sans-serif">Code distribution</text>
+<text x="74" y="346" font-size="10" fill="#6D839F" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="0.9">PUBLIC CONTRIBUTIONS · 365 DAYS</text>
+<text x="532" y="346" font-size="10" fill="#6D839F" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="0.9">OWNED PUBLIC REPOS · CODE BYTES</text>
+<text x="76" y="421" font-size="45" fill="#67E8F9" font-weight="740" font-family="Inter,Segoe UI,Arial,sans-serif">579</text>
+<text x="76" y="444" font-size="13" fill="#A0B1C7" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif">Commits</text>
+<path d="M242 368 V456" stroke="#294364"/>
+<text x="270" y="408" font-size="29" fill="#B39AFF" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">29</text>
+<text x="270" y="430" font-size="12" fill="#A0B1C7" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif">Pull requests</text>
+<text x="396" y="408" font-size="29" fill="#68A7FF" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">0</text>
+<text x="396" y="430" font-size="12" fill="#A0B1C7" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif">Issues</text>
+<path d="M74 471 H468" stroke="#294364"/>
+<text x="76" y="502" font-size="13" fill="#A0B1C7" font-weight="570" font-family="Inter,Segoe UI,Arial,sans-serif">★ 1 stars earned</text>
+<text x="296" y="502" font-size="13" fill="#A0B1C7" font-weight="570" font-family="Inter,Segoe UI,Arial,sans-serif">0 PR reviews</text>
+<text x="534" y="381" font-size="14" fill="#E9F2FC" font-weight="590" font-family="Inter,Segoe UI,Arial,sans-serif">JavaScript</text>
+<text x="924" y="381" font-size="13" fill="#A0B1C7" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">59.7%</text>
+<rect x="534" y="391" width="390" height="6" rx="3" fill="#243852" />
+<rect x="534" y="391" width="232.75" height="6" rx="3" fill="#67E8F9" />
+<text x="534" y="417" font-size="14" fill="#E9F2FC" font-weight="590" font-family="Inter,Segoe UI,Arial,sans-serif">TypeScript</text>
+<text x="924" y="417" font-size="13" fill="#A0B1C7" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">30.0%</text>
+<rect x="534" y="427" width="390" height="6" rx="3" fill="#243852" />
+<rect x="534" y="427" width="117.12" height="6" rx="3" fill="#B39AFF" />
+<text x="534" y="453" font-size="14" fill="#E9F2FC" font-weight="590" font-family="Inter,Segoe UI,Arial,sans-serif">C#</text>
+<text x="924" y="453" font-size="13" fill="#A0B1C7" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">7.1%</text>
+<rect x="534" y="463" width="390" height="6" rx="3" fill="#243852" />
+<rect x="534" y="463" width="27.88" height="6" rx="3" fill="#68A7FF" />
+<text x="534" y="489" font-size="14" fill="#E9F2FC" font-weight="590" font-family="Inter,Segoe UI,Arial,sans-serif">Other</text>
+<text x="924" y="489" font-size="13" fill="#A0B1C7" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">3.1%</text>
+<rect x="534" y="499" width="390" height="6" rx="3" fill="#243852" />
+<rect x="534" y="499" width="12.25" height="6" rx="3" fill="#5A779D" />
+<text x="52" y="566" font-size="10" fill="#6D839F" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="0.5">SOURCE: GITHUB GRAPHQL + PUBLIC REPOSITORY LANGUAGE DATA</text>
+<text x="948" y="566" font-size="10" fill="#A0B1C7" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">UPDATED 2026-11-06</text>
+</svg>
