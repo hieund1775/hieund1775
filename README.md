@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner-v6.svg" width="100%" alt="Hiếu Nguyễn — Backend Developer | Software Engineer" />
+  <img src="./assets/hieu-github-lofi-banner.gif" width="100%" alt="Hieu Nguyen - Lofi Coding" />
 </p>
 
 <p align="center">
