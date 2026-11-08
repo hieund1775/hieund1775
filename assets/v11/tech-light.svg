@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="492" viewBox="0 0 1000 492" role="img">
+<rect x="10" y="7" width="980" height="477" rx="18" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="42" y="52" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="18" font-weight="700" fill="#A46C45" letter-spacing="1.3">MY TOOLBOX</text>
+<text x="956" y="52" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="13" font-weight="500" fill="#768A80" text-anchor="end">TOOLS I USE AND STUDY</text>
+<line x1="42" y1="70" x2="958" y2="70" stroke="#D1C8BC" stroke-width="1"/>
+<rect x="41" y="89" width="450" height="177" rx="13" fill="#EBE7DD" stroke="#D1C8BC" stroke-width="1"/>
+<text x="61" y="121" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#A46C45" letter-spacing="1.0">LANGUAGES</text>
+<rect x="61" y="140" width="75" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="98.5" y="168" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">Java</text>
+<rect x="145" y="140" width="147" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="218.5" y="168" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">TypeScript</text>
+<rect x="301" y="140" width="147" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="374.5" y="168" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">JavaScript</text>
+<rect x="61" y="197" width="73" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="97.5" y="225" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">C</text>
+<rect x="520" y="89" width="450" height="177" rx="13" fill="#EBE7DD" stroke="#D1C8BC" stroke-width="1"/>
+<text x="540" y="121" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#A46C45" letter-spacing="1.0">BACKEND &amp; DATA</text>
+<rect x="540" y="140" width="111" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="595.5" y="168" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">Node.js</text>
+<rect x="660" y="140" width="147" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="733.5" y="168" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">PostgreSQL</text>
+<rect x="816" y="140" width="87" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="859.5" y="168" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">MySQL</text>
+<rect x="540" y="197" width="123" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="601.5" y="225" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">Supabase</text>
+<rect x="41" y="279" width="450" height="177" rx="13" fill="#EBE7DD" stroke="#D1C8BC" stroke-width="1"/>
+<text x="61" y="311" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#A46C45" letter-spacing="1.0">FRONTEND</text>
+<rect x="61" y="330" width="87" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="104.5" y="358" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">React</text>
+<rect x="157" y="330" width="75" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="194.5" y="358" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">HTML</text>
+<rect x="241" y="330" width="73" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="277.5" y="358" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">CSS</text>
+<rect x="323" y="330" width="135" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="390.5" y="358" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">Bootstrap</text>
+<rect x="520" y="279" width="450" height="177" rx="13" fill="#EBE7DD" stroke="#D1C8BC" stroke-width="1"/>
+<text x="540" y="311" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="700" fill="#A46C45" letter-spacing="1.0">DEVOPS &amp; TOOLS</text>
+<rect x="540" y="330" width="99" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="589.5" y="358" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">Docker</text>
+<rect x="648" y="330" width="73" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="684.5" y="358" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">AWS</text>
+<rect x="730" y="330" width="73" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="766.5" y="358" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">Git</text>
+<rect x="812" y="330" width="111" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="867.5" y="358" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">Postman</text>
+<rect x="540" y="387" width="87" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="583.5" y="415" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">Figma</text>
+<rect x="636" y="387" width="111" height="43" rx="9" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<text x="691.5" y="415" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="17" font-weight="500" fill="#29383C" text-anchor="middle">Arduino</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="248" viewBox="0 0 1000 248" role="img">
+<rect x="10" y="7" width="980" height="232" rx="18" fill="#29383B" stroke="#4B5E59" stroke-width="1"/>
+<rect x="31" y="29" width="5" height="57" rx="2" fill="#D6A17B"/>
+<text x="54" y="52" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="14" font-weight="700" fill="#D6A17B" letter-spacing="1.8">HELLO, WORLD</text>
+<text x="54" y="92" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="29" font-weight="600" fill="#F0E3D3">I build, learn, and keep refining.</text>
+<line x1="54" y1="111" x2="947" y2="111" stroke="#4B5E59" stroke-width="1"/>
+<text x="54" y="147" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="20" font-weight="400" fill="#B9C7BD">I&#x27;m a Software Engineering student at FPT University, focused on backend</text>
+<text x="54" y="179" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="20" font-weight="400" fill="#B9C7BD">development, reliable systems, and clean software design.</text>
+<text x="54" y="215" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="19" font-weight="400" fill="#B9C7BD">I enjoy turning ideas into practical applications and learning by building.</text>
+<g transform="translate(906 39) scale(1.5)" stroke="#D6A17B" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h14v7a7 7 0 0 1-14 0V9Zm14 1h2a3 3 0 1 1 0 6h-2M2 22h18"/></g>
+</svg>
