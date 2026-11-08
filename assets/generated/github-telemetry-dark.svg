@@ -1,57 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="552" viewBox="0 0 1000 552" role="img" aria-label="GitHub contribution analytics for hieund1775">
 <defs>
-<linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1B2031"/><stop offset="100%" stop-color="#1A1B30"/></linearGradient>
-<linearGradient id="streakRing" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#77A6FA"/><stop offset="100%" stop-color="#C3A4F7"/></linearGradient>
+<linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#314144"/><stop offset="100%" stop-color="#253336"/></linearGradient>
+<linearGradient id="streakRing" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E2BC92"/><stop offset="100%" stop-color="#9CB6A2"/></linearGradient>
 </defs>
-<rect x="125" y="12" width="750" height="224" rx="17" fill="url(#hero)" stroke="#303B55" stroke-width="1" />
-<text x="154" y="46" font-size="14" fill="#8EA9CC" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="1.25">GITHUB  /  CONTRIBUTION STREAK</text>
-<text x="846" y="46" font-size="12" fill="#8193AF" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end" letter-spacing="0.8">LAST 365 DAYS</text>
-<path d="M373 74 V206 M626 74 V206" stroke="#42506A" stroke-width="1"/>
-<text x="248" y="126" font-size="48" fill="#77A6FA" font-weight="780" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">723</text>
-<text x="248" y="163" font-size="18" fill="#F2F6FD" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">Total contributions</text>
-<text x="248" y="194" font-size="13" fill="#BBC9E1" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">GitHub activity</text>
-<circle cx="500" cy="129" r="50" fill="none" stroke="#2D3853" stroke-width="7"/>
+<rect x="125" y="12" width="750" height="224" rx="17" fill="url(#hero)" stroke="#4B5E59" stroke-width="1" />
+<text x="154" y="46" font-size="14" fill="#C59C7E" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="1.25">GITHUB  /  CONTRIBUTION STREAK</text>
+<text x="846" y="46" font-size="12" fill="#97AAA2" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end" letter-spacing="0.8">LAST 365 DAYS</text>
+<path d="M373 74 V206 M626 74 V206" stroke="#536760" stroke-width="1"/>
+<text x="248" y="126" font-size="48" fill="#E2BC92" font-weight="780" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">726</text>
+<text x="248" y="163" font-size="18" fill="#F0E3D3" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">Total contributions</text>
+<text x="248" y="194" font-size="13" fill="#C2C9BF" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">GitHub activity</text>
+<circle cx="500" cy="129" r="50" fill="none" stroke="#415552" stroke-width="7"/>
 <circle cx="500" cy="129" r="50" fill="none" stroke="url(#streakRing)" stroke-width="7" stroke-linecap="round" stroke-dasharray="276 38" transform="rotate(-90 500 129)"/>
-<text x="500" y="145" font-size="45" fill="#C3A4F7" font-weight="780" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">10</text>
-<path d="M499 71 C488 62,492 54,496 49 C497 57,501 58,504 53 C516 64,510 76,502 79 C495 80,491 75,493 68 Z" fill="#C3A4F7" stroke="#1B2031" stroke-width="3"/>
-<text x="500" y="204" font-size="18" fill="#F2F6FD" font-weight="690" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">Current streak</text>
-<text x="750" y="126" font-size="48" fill="#77A6FA" font-weight="780" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">24</text>
-<text x="750" y="163" font-size="18" fill="#F2F6FD" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">Longest streak</text>
-<text x="750" y="194" font-size="13" fill="#BBC9E1" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">In the last 365 days</text>
-<rect x="23" y="266" width="465" height="272" rx="16" fill="#191E2E" stroke="#303B55" stroke-width="1" />
-<rect x="512" y="266" width="465" height="272" rx="16" fill="#191E2E" stroke="#303B55" stroke-width="1" />
-<rect x="45" y="288" width="4" height="31" rx="2" fill="#66D9EA" />
-<text x="62" y="310" font-size="22" fill="#F2F6FD" font-weight="740" font-family="Inter,Segoe UI,Arial,sans-serif">GitHub activity</text>
-<text x="48" y="341" font-size="12" fill="#8193AF" font-weight="590" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="0.35">CONTRIBUTION EVENTS  ·  LAST 365 DAYS</text>
-<text x="53" y="418" font-size="49" fill="#66D9EA" font-weight="770" font-family="Inter,Segoe UI,Arial,sans-serif">579</text>
-<text x="54" y="443" font-size="16" fill="#BBC9E1" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif">Commits</text>
-<path d="M241 367 V453" stroke="#42506A"/>
-<text x="264" y="409" font-size="32" fill="#C3A4F7" font-weight="750" font-family="Inter,Segoe UI,Arial,sans-serif">29</text>
-<text x="264" y="436" font-size="14" fill="#BBC9E1" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif">Pull requests</text>
-<text x="388" y="409" font-size="32" fill="#77A6FA" font-weight="750" font-family="Inter,Segoe UI,Arial,sans-serif">0</text>
-<text x="388" y="436" font-size="14" fill="#BBC9E1" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif">Issues</text>
-<path d="M48 472 H463" stroke="#42506A"/>
-<text x="53" y="505" font-size="15" fill="#BBC9E1" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">★ 1 stars</text>
-<text x="283" y="505" font-size="15" fill="#BBC9E1" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">0 code reviews</text>
-<rect x="534" y="288" width="4" height="31" rx="2" fill="#C3A4F7" />
-<text x="551" y="310" font-size="22" fill="#F2F6FD" font-weight="740" font-family="Inter,Segoe UI,Arial,sans-serif">Languages by code</text>
-<text x="537" y="341" font-size="12" fill="#8193AF" font-weight="590" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="0.35">OWNED PUBLIC REPOS  ·  CODE BYTES</text>
-<rect x="539" y="376" width="409" height="14" rx="7" fill="#2D3853" />
-<rect x="539.0" y="376" width="244.01" height="14" rx="1" fill="#66D9EA" />
-<rect x="783.01" y="376" width="122.78" height="14" rx="1" fill="#C3A4F7" />
-<rect x="905.79" y="376" width="29.23" height="14" rx="1" fill="#77A6FA" />
-<rect x="935.01" y="376" width="12.99" height="14" rx="1" fill="#627BA1" />
-<circle cx="547" cy="421" r="6" fill="#66D9EA"/>
-<text x="561" y="426" font-size="15" fill="#F2F6FD" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">JavaScript</text>
-<text x="721" y="426" font-size="14" fill="#BBC9E1" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">59.7%</text>
-<circle cx="757" cy="421" r="6" fill="#C3A4F7"/>
-<text x="771" y="426" font-size="15" fill="#F2F6FD" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">TypeScript</text>
-<text x="931" y="426" font-size="14" fill="#BBC9E1" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">30.0%</text>
-<circle cx="547" cy="469" r="6" fill="#77A6FA"/>
-<text x="561" y="474" font-size="15" fill="#F2F6FD" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">C#</text>
-<text x="721" y="474" font-size="14" fill="#BBC9E1" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">7.1%</text>
-<circle cx="757" cy="469" r="6" fill="#627BA1"/>
-<text x="771" y="474" font-size="15" fill="#F2F6FD" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">Other</text>
-<text x="931" y="474" font-size="14" fill="#BBC9E1" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">3.2%</text>
-<text x="846" y="222" font-size="11" fill="#8193AF" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">UPDATED 2026-11-06</text>
+<text x="500" y="145" font-size="45" fill="#9CB6A2" font-weight="780" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">0</text>
+<path d="M499 71 C488 62,492 54,496 49 C497 57,501 58,504 53 C516 64,510 76,502 79 C495 80,491 75,493 68 Z" fill="#9CB6A2" stroke="#314144" stroke-width="3"/>
+<text x="500" y="204" font-size="18" fill="#F0E3D3" font-weight="690" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">Current streak</text>
+<text x="750" y="126" font-size="48" fill="#E2BC92" font-weight="780" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">24</text>
+<text x="750" y="163" font-size="18" fill="#F0E3D3" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">Longest streak</text>
+<text x="750" y="194" font-size="13" fill="#C2C9BF" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">In the last 365 days</text>
+<rect x="23" y="266" width="465" height="272" rx="16" fill="#29383B" stroke="#4B5E59" stroke-width="1" />
+<rect x="512" y="266" width="465" height="272" rx="16" fill="#29383B" stroke="#4B5E59" stroke-width="1" />
+<rect x="45" y="288" width="4" height="31" rx="2" fill="#D6A17B" />
+<text x="62" y="310" font-size="22" fill="#F0E3D3" font-weight="740" font-family="Inter,Segoe UI,Arial,sans-serif">GitHub activity</text>
+<text x="48" y="341" font-size="12" fill="#97AAA2" font-weight="590" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="0.35">CONTRIBUTION EVENTS  ·  LAST 365 DAYS</text>
+<text x="53" y="418" font-size="49" fill="#D6A17B" font-weight="770" font-family="Inter,Segoe UI,Arial,sans-serif">582</text>
+<text x="54" y="443" font-size="16" fill="#C2C9BF" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif">Commits</text>
+<path d="M241 367 V453" stroke="#536760"/>
+<text x="264" y="409" font-size="32" fill="#9CB6A2" font-weight="750" font-family="Inter,Segoe UI,Arial,sans-serif">29</text>
+<text x="264" y="436" font-size="14" fill="#C2C9BF" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif">Pull requests</text>
+<text x="388" y="409" font-size="32" fill="#E2BC92" font-weight="750" font-family="Inter,Segoe UI,Arial,sans-serif">0</text>
+<text x="388" y="436" font-size="14" fill="#C2C9BF" font-weight="400" font-family="Inter,Segoe UI,Arial,sans-serif">Issues</text>
+<path d="M48 472 H463" stroke="#536760"/>
+<text x="53" y="505" font-size="15" fill="#C2C9BF" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">★ 1 stars</text>
+<text x="283" y="505" font-size="15" fill="#C2C9BF" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">0 code reviews</text>
+<rect x="534" y="288" width="4" height="31" rx="2" fill="#9CB6A2" />
+<text x="551" y="310" font-size="22" fill="#F0E3D3" font-weight="740" font-family="Inter,Segoe UI,Arial,sans-serif">Languages by code</text>
+<text x="537" y="341" font-size="12" fill="#97AAA2" font-weight="590" font-family="Inter,Segoe UI,Arial,sans-serif" letter-spacing="0.35">OWNED PUBLIC REPOS  ·  CODE BYTES</text>
+<rect x="539" y="376" width="409" height="14" rx="7" fill="#415552" />
+<rect x="539.0" y="376" width="244.01" height="14" rx="1" fill="#D6A17B" />
+<rect x="783.01" y="376" width="122.78" height="14" rx="1" fill="#9CB6A2" />
+<rect x="905.79" y="376" width="29.23" height="14" rx="1" fill="#E2BC92" />
+<rect x="935.01" y="376" width="12.99" height="14" rx="1" fill="#7D9589" />
+<circle cx="547" cy="421" r="6" fill="#D6A17B"/>
+<text x="561" y="426" font-size="15" fill="#F0E3D3" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">JavaScript</text>
+<text x="721" y="426" font-size="14" fill="#C2C9BF" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">59.7%</text>
+<circle cx="757" cy="421" r="6" fill="#9CB6A2"/>
+<text x="771" y="426" font-size="15" fill="#F0E3D3" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">TypeScript</text>
+<text x="931" y="426" font-size="14" fill="#C2C9BF" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">30.0%</text>
+<circle cx="547" cy="469" r="6" fill="#E2BC92"/>
+<text x="561" y="474" font-size="15" fill="#F0E3D3" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">C#</text>
+<text x="721" y="474" font-size="14" fill="#C2C9BF" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">7.1%</text>
+<circle cx="757" cy="469" r="6" fill="#7D9589"/>
+<text x="771" y="474" font-size="15" fill="#F0E3D3" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif">Other</text>
+<text x="931" y="474" font-size="14" fill="#C2C9BF" font-weight="600" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">3.2%</text>
+<text x="846" y="222" font-size="11" fill="#97AAA2" font-weight="650" font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="end">UPDATED 2026-11-08</text>
 </svg>

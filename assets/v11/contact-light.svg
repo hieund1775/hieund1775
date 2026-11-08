@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="163" viewBox="0 0 1000 163" role="img">
+<rect x="10" y="7" width="980" height="149" rx="18" fill="#FFFBF3" stroke="#D1C8BC" stroke-width="1"/>
+<g transform="translate(47 40) scale(1.7)" stroke="#A46C45" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m3 7 9 7 9-7"/></g>
+<text x="106" y="58" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="24" font-weight="550" fill="#29383C">Open to thoughtful engineering conversations.</text>
+<text x="107" y="98" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="18" font-weight="400" fill="#50665F">Feel free to reach out via email or connect on my socials below.</text>
+<line x1="44" y1="123" x2="956" y2="123" stroke="#D1C8BC" stroke-width="1"/>
+<text x="950" y="145" font-family="Segoe UI,Inter,Arial,sans-serif" font-size="12" font-weight="600" fill="#768A80" text-anchor="end" letter-spacing="1">BUILD • LEARN • REFINE</text>
+</svg>
