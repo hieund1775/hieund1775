@@ -27,31 +27,22 @@
 </p>
 
 <!-- WEATHER_START -->
-<p align="center">☀️ Ho Chi Minh City · 09/11/2026 · 24°C</p>
+<p align="center">🌧️ Ho Chi Minh City · 09/11/2026 · 33°C</p>
 <!-- WEATHER_END -->
 
 <br/>
 
 <!-- PERSONAL INFORMATION -->
-### Personal Information
+### 👤 Personal Information
 
-**Name**  
-Hiáº¿u Nguyá»…n
-
-**Education**  
-FPT University
-
-**Major**  
-Software Engineering
-
-**Specialization**  
-Backend Development
-
-**Location**  
-Vietnam
-
-**Career Goal**  
-Senior Engineer / Software Architect
+- 👤 **Name:** Hiếu Nguyễn
+- 🎓 **Education:** FPT University
+- 📚 **Major:** Software Engineering
+- 💻 **Specialization:** Backend Development
+- 📍 **Location:** Vietnam
+- 🎯 **Career Goal:** Senior Engineer / Software Architect
+- 🌱 **Currently Learning:** TypeScript · Flutter
+- ⚡ **Fun Fact:** Curious about almost everything. My search history knows too much. 😄
 
 <br/>
 
