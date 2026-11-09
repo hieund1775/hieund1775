@@ -27,7 +27,13 @@
 </p>
 
 <!-- WEATHER_START -->
-<p align="center">🌧️ Ho Chi Minh City · 09/11/2026 · 33°C</p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://hieund1775.github.io/hieund1775/weather-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://hieund1775.github.io/hieund1775/weather-light.svg" />
+    <img src="https://hieund1775.github.io/hieund1775/weather-dark.svg" width="100%" alt="Ho Chi Minh City weather, updated hourly" />
+  </picture>
+</p>
 <!-- WEATHER_END -->
 
 <br/>
@@ -125,9 +131,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/github-telemetry-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/generated/github-telemetry-light.svg" />
-    <img src="./assets/generated/github-telemetry-dark.svg" width="100%" alt="Live GitHub engineering telemetry dashboard" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://hieund1775.github.io/hieund1775/github-telemetry-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://hieund1775.github.io/hieund1775/github-telemetry-light.svg" />
+    <img src="https://hieund1775.github.io/hieund1775/github-telemetry-dark.svg" width="100%" alt="Live GitHub engineering telemetry dashboard" />
   </picture>
 </p>
 
@@ -165,7 +171,7 @@
 
 <p align="center">
   <img
-    src="./game.gif"
+    src="https://hieund1775.github.io/hieund1775/game.gif"
     width="100%"
     alt="GitHub contribution space shooter"
   />
