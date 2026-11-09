@@ -43,16 +43,16 @@ query ProfileTelemetry($login: String!, $from: DateTime!, $to: DateTime!) {
 
 THEMES = {
     "dark": {
-        "panel": "#29383B", "secondary": "#253337", "stroke": "#4B5E59",
-        "text": "#F0E3D3", "muted": "#C2C9BF", "faint": "#97AAA2", "track": "#415552",
-        "cyan": "#D6A17B", "violet": "#9CB6A2", "blue": "#E2BC92", "other": "#7D9589",
-        "divider": "#536760", "eyebrow": "#C59C7E", "hero_a": "#314144", "hero_b": "#253336",
+        "panel": "#191E2E", "secondary": "#141C2D", "stroke": "#303B55",
+        "text": "#F2F6FD", "muted": "#BBC9E1", "faint": "#8193AF", "track": "#2D3853",
+        "cyan": "#78C5C8", "violet": "#C0A9DE", "blue": "#E6B487", "other": "#7897AE",
+        "divider": "#42506A", "eyebrow": "#8EA9CC", "hero_a": "#1B2031", "hero_b": "#1A1B30",
     },
     "light": {
-        "panel": "#FFFBF3", "secondary": "#EEE8DE", "stroke": "#D1C8BC",
-        "text": "#29383C", "muted": "#50665F", "faint": "#73877C", "track": "#DED8CB",
-        "cyan": "#A46C45", "violet": "#627C6E", "blue": "#C08A61", "other": "#91A49A",
-        "divider": "#D6CBBD", "eyebrow": "#8C725D", "hero_a": "#F3EEE6", "hero_b": "#EAE6DC",
+        "panel": "#FFFFFF", "secondary": "#F6F8FD", "stroke": "#D7DFEF",
+        "text": "#16233C", "muted": "#4B5D7B", "faint": "#637897", "track": "#E3EAF4",
+        "cyan": "#287F85", "violet": "#765C9A", "blue": "#AD7146", "other": "#688A9B",
+        "divider": "#D1DCEB", "eyebrow": "#526989", "hero_a": "#F7F9FE", "hero_b": "#F5F4FC",
     },
 }
 

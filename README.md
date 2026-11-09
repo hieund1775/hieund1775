@@ -1,83 +1,151 @@
-<!-- PROFILE V11: LOFI DEVELOPER JOURNAL -->
+<!-- PROFILE INTRO: minimal text above the existing lo-fi banner -->
+<h2 align="center">Hi, I'm Hiếu Nguyễn 👋</h2>
+<p align="center"><strong>Backend Developer · Software Engineering Student</strong></p>
+<p align="center"><em>I enjoy building reliable backend systems, learning clean architecture, and turning ideas into useful software.</em></p>
+
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/v11/intro-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/v11/intro-light.svg" />
-    <img src="./assets/v11/intro-dark.svg" width="100%" alt="Hi, I'm Hiếu Nguyễn - Backend Developer and Software Engineering Student" />
-  </picture>
+  <img src="./assets/hieu-github-lofi-banner.gif" width="100%" alt="Hieu Nguyen - Lofi Coding" />
 </p>
 
 <p align="center">
-  <img src="./assets/hieu-github-lofi-banner.gif" width="100%" alt="A rainy-night lo-fi anime scene of a developer coding beside a sleeping cat" />
+  <a href="mailto:hieund1775@gmail.com">
+    <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/hieund-se">
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.facebook.com/nguyen.hieu.196886/">
+    <img src="https://img.shields.io/badge/FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://github.com/hieund1775">
+    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="mailto:hieund1775@gmail.com">Email</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/hieund-se">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://www.facebook.com/nguyen.hieu.196886/">Facebook</a> &nbsp;·&nbsp;
-  <a href="https://github.com/hieund1775">GitHub</a>
+  <strong>Think clearly. Design cleanly. Build reliably.</strong>
 </p>
 
 <!-- WEATHER_START -->
-<p align="center">🌤 Ho Chi Minh City · 08/11/2026 · 26°C</p>
+<p align="center">☀️ Ho Chi Minh City · 09/11/2026 · 24°C</p>
 <!-- WEATHER_END -->
 
-<!-- ABOUT ME -->
+<br/>
+
+<!-- PERSONAL INFORMATION: simple, theme-native GitHub table -->
+<h3 align="center">☕ Personal Information</h3>
+
+<table align="center" width="100%">
+  <tr>
+    <td width="50%"><strong>👤 Name</strong><br/>Hiếu Nguyễn</td>
+    <td width="50%"><strong>🎓 Education</strong><br/>FPT University</td>
+  </tr>
+  <tr>
+    <td><strong>📚 Major</strong><br/>Software Engineering</td>
+    <td><strong>💻 Focus</strong><br/>Backend Development</td>
+  </tr>
+  <tr>
+    <td><strong>📍 Location</strong><br/>Vietnam</td>
+    <td><strong>🎯 Career Goal</strong><br/>Senior Engineer / Software Architect</td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- SYSTEM IDENTITY -->
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/01-system-identity.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/01-system-identity.svg" />
-    <img src="./assets/sections/dark/01-system-identity.svg" width="100%" alt="About me" />
+    <img src="./assets/sections/dark/01-system-identity.svg" width="100%" alt="System Identity" />
   </picture>
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/v11/about-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/v11/about-light.svg" />
-    <img src="./assets/v11/about-dark.svg" width="100%" alt="I am a Software Engineering student at FPT University, focused on backend development and clean software design." />
-  </picture>
+  <img
+    src="./assets/terminal.svg"
+    width="100%"
+    alt="Animated developer terminal"
+  />
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/v11/personal-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/v11/personal-light.svg" />
-    <img src="./assets/v11/personal-dark.svg" width="100%" alt="Personal information: Hiếu Nguyễn, FPT University, Software Engineering, Backend Development, Vietnam, aspiring Senior Engineer and Software Architect." />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/v11/interests-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/v11/interests-light.svg" />
-    <img src="./assets/v11/interests-dark.svg" width="100%" alt="Engineering interests: Clean Architecture, AI and Automation, Backend Systems, and System Design." />
-  </picture>
-</p>
+<br/>
 
 <!-- TECH STACK -->
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/02-tech-stack.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/02-tech-stack.svg" />
-    <img src="./assets/sections/dark/02-tech-stack.svg" width="100%" alt="Tech stack" />
+    <img src="./assets/sections/dark/02-tech-stack.svg" width="100%" alt="Tech Stack" />
   </picture>
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/v11/tech-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/v11/tech-light.svg" />
-    <img src="./assets/v11/tech-dark.svg" width="100%" alt="Languages: Java, TypeScript, JavaScript and C. Backend and Data: Node.js, PostgreSQL, MySQL and Supabase. Frontend: React, HTML, CSS and Bootstrap. Tools: Docker, AWS, Git, Postman, Figma and Arduino." />
-  </picture>
+  <img
+    src="https://skillicons.dev/icons?i=java,js,ts,c,nodejs,react,html,css,bootstrap,postgres,mysql,supabase,docker,aws,git,arduino,postman,figma&theme=dark&perline=9"
+    alt="Technology stack and tooling"
+  />
 </p>
 
+<h4 align="center">🌐 Programming Languages</h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JAVA-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=111827" alt="C" />
+</p>
+
+<h4 align="center">⚙️ Backend & Runtime</h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+</p>
+
+<h4 align="center">🎨 Frontend & Styling</h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=react&logoColor=0f172a" alt="React" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/BOOTSTRAP-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+</p>
+
+<h4 align="center">🗄️ Databases & Backend Services</h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/SUPABASE-3FCF8E?style=for-the-badge&logo=supabase&logoColor=06141d" alt="Supabase" />
+</p>
+
+<h4 align="center">☁️ Cloud, DevOps & Systems</h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS" />
+  <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/ARDUINO-00878F?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+</p>
+
+<h4 align="center">🧰 Tools & Design</h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/POSTMAN-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/FIGMA-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+</p>
+
+<br/>
+
 <!-- GITHUB TELEMETRY -->
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/03-github-telemetry.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/03-github-telemetry.svg" />
-    <img src="./assets/sections/dark/03-github-telemetry.svg" width="100%" alt="GitHub activity" />
+    <img src="./assets/sections/dark/03-github-telemetry.svg" width="100%" alt="GitHub Telemetry" />
   </picture>
 </p>
 
@@ -85,11 +153,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/github-telemetry-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/generated/github-telemetry-light.svg" />
-    <img src="./assets/generated/github-telemetry-dark.svg" width="100%" alt="GitHub contribution analytics, automatically updated from GitHub data" />
+    <img src="./assets/generated/github-telemetry-dark.svg" width="100%" alt="Live GitHub engineering telemetry dashboard" />
   </picture>
 </p>
 
-<!-- ACHIEVEMENTS -->
+<br/>
+
+<!-- GITHUB TROPHIES -->
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/04-achievements.svg" />
@@ -99,27 +170,41 @@
 </p>
 
 <p align="center">
-  <img src="https://github-trophies.vercel.app/?username=hieund1775&amp;theme=gruvbox&amp;no-frame=true&amp;no-bg=true&amp;margin-w=8" width="100%" alt="GitHub trophies" />
+  <img
+    src="https://github-trophies.vercel.app/?username=hieund1775&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8"
+    width="100%"
+    alt="GitHub trophies"
+  />
 </p>
 
-<!-- CONTRIBUTIONS -->
+<br/>
+
+<!-- CONTRIBUTION MISSION -->
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/05-contribution-mission.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/05-contribution-mission.svg" />
-    <img src="./assets/sections/dark/05-contribution-mission.svg" width="100%" alt="Contribution history" />
+    <img src="./assets/sections/dark/05-contribution-mission.svg" width="100%" alt="Contribution Mission" />
   </picture>
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=hieund1775&amp;bg_color=222B2D&amp;color=E9D8C3&amp;title_color=E9D8C3&amp;line=C9946E&amp;point=A5C0AA&amp;area_color=4F675C&amp;area=true&amp;hide_border=true&amp;hide_title=true&amp;days=30&amp;radius=12" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=hieund1775&amp;bg_color=F4EFE7&amp;color=29383C&amp;title_color=29383C&amp;line=A46C45&amp;point=617D6F&amp;area_color=D1C8BC&amp;area=true&amp;hide_border=true&amp;hide_title=true&amp;days=30&amp;radius=12" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=hieund1775&amp;bg_color=222B2D&amp;color=E9D8C3&amp;title_color=E9D8C3&amp;line=C9946E&amp;point=A5C0AA&amp;area_color=4F675C&amp;area=true&amp;hide_border=true&amp;hide_title=true&amp;days=30&amp;radius=12" width="100%" alt="GitHub contribution activity graph for the last 30 days" />
-  </picture>
+  <img
+    src="./game.gif"
+    width="100%"
+    alt="GitHub contribution space shooter"
+  />
 </p>
 
+<p align="center">
+  <sub>Contribution history, turned into a space mission.</sub>
+</p>
+
+<br/>
+
 <!-- CONTACT -->
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/06-contact.svg" />
@@ -129,22 +214,30 @@
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/v11/contact-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/v11/contact-light.svg" />
-    <img src="./assets/v11/contact-dark.svg" width="100%" alt="Open to engineering conversations and collaboration." />
-  </picture>
+  <a href="mailto:hieund1775@gmail.com">
+    <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/hieund-se">
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+
+  <a href="https://www.facebook.com/nguyen.hieu.196886/">
+    <img src="https://img.shields.io/badge/FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+
+  <a href="https://github.com/hieund1775">
+    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="mailto:hieund1775@gmail.com">✉ Email</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/hieund-se">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://www.facebook.com/nguyen.hieu.196886/">Facebook</a> &nbsp;·&nbsp;
-  <a href="https://github.com/hieund1775">GitHub</a>
+  <img
+    src="https://komarev.com/ghpvc/?username=hieund1775&label=PROFILE%20VIEWS&color=0EA5E9&style=flat-square&abbreviated=true"
+    alt="Profile views"
+  />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=hieund1775&amp;label=PROFILE%20VIEWS&amp;color=C9946E&amp;style=flat-square&amp;abbreviated=true" alt="Profile views" />
+  <strong>Think clearly. Design cleanly. Build reliably.</strong>
 </p>
-
-<p align="center"><sub>Think clearly. Design cleanly. Build reliably.</sub></p>
