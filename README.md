@@ -33,25 +33,16 @@
 <br/>
 
 <!-- PERSONAL INFORMATION -->
-### Personal Information
+### 👤 Personal Information
 
-**Name**  
-Hiáº¿u Nguyá»…n
-
-**Education**  
-FPT University
-
-**Major**  
-Software Engineering
-
-**Specialization**  
-Backend Development
-
-**Location**  
-Vietnam
-
-**Career Goal**  
-Senior Engineer / Software Architect
+- 👤 **Name:** Hiếu Nguyễn
+- 🎓 **Education:** FPT University
+- 📚 **Major:** Software Engineering
+- 💻 **Specialization:** Backend Development
+- 📍 **Location:** Vietnam
+- 🎯 **Career Goal:** Senior Engineer / Software Architect
+- 🌱 **Currently Learning:** TypeScript · Flutter
+- ⚡ **Fun Fact:** Curious about almost everything. My search history knows too much. 😄
 
 <br/>
 
