@@ -32,34 +32,26 @@
 
 <br/>
 
-<!-- PERSONAL INFORMATION: full-width, theme-aware SVG -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/personal-info-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/personal-info-light.svg" />
-    <img src="./assets/personal-info-dark.svg" width="100%" alt="Personal information: Hiếu Nguyễn, FPT University, Software Engineering, Backend Development, Vietnam, goal of Senior Engineer or Software Architect" />
-  </picture>
-</p>
+<!-- PERSONAL INFORMATION -->
+### Personal Information
 
-<br/>
+**Name**  
+Hiáº¿u Nguyá»…n
 
-<!-- SYSTEM IDENTITY -->
+**Education**  
+FPT University
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/01-system-identity.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/01-system-identity.svg" />
-    <img src="./assets/sections/dark/01-system-identity.svg" width="100%" alt="System Identity" />
-  </picture>
-</p>
+**Major**  
+Software Engineering
 
-<p align="center">
-  <img
-    src="./assets/terminal.svg"
-    width="100%"
-    alt="Animated developer terminal"
-  />
-</p>
+**Specialization**  
+Backend Development
+
+**Location**  
+Vietnam
+
+**Career Goal**  
+Senior Engineer / Software Architect
 
 <br/>
 
