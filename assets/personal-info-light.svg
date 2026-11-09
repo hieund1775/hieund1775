@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="288" viewBox="0 0 1000 288" role="img" aria-label="Personal information: Hiếu Nguyễn, FPT University, Software Engineering, Backend Development, Vietnam, career goal Senior Engineer or Software Architect">
+<defs><linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#437D79"/><stop offset="100%" stop-color="#A96D46"/></linearGradient></defs>
+<rect x="1" y="1" width="998" height="286" rx="17" fill="#F9F6F0" stroke="#D5C6B8" stroke-width="1.5"/>
+<text x="39" y="36" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#243844">PERSONAL INFORMATION</text>
+<text x="957" y="35" text-anchor="end" font-family="Consolas,monospace" font-size="13" fill="#667984">the person behind the code</text>
+<rect x="39" y="53" width="920" height="2" rx="1" fill="url(#accent)" opacity=".85"/>
+<path d="M500 73 V261" fill="none" stroke="#D6CBC0" stroke-width="1"/>
+<path d="M39 136 H472 M528 136 H959" stroke="#D6CBC0" stroke-width="1"/>
+<path d="M39 200 H472 M528 200 H959" stroke="#D6CBC0" stroke-width="1"/>
+<rect x="39" y="82" width="38" height="38" rx="9" fill="#FFFDF8" stroke="#E2D8CE"/>
+<g transform="translate(46 89)" fill="none" stroke="#437D79" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></g>
+<text x="94" y="95" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="650" letter-spacing=".5" fill="#667984">NAME</text>
+<text x="94" y="119" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#243844">Hiếu Nguyễn</text>
+<rect x="528" y="82" width="38" height="38" rx="9" fill="#FFFDF8" stroke="#E2D8CE"/>
+<g transform="translate(535 89)" fill="none" stroke="#437D79" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 10-5 10 5-10 5-10-5Z"/><path d="M6 11v5c4 3 8 3 12 0v-5M22 9v6"/></g>
+<text x="583" y="95" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="650" letter-spacing=".5" fill="#667984">EDUCATION</text>
+<text x="583" y="119" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#243844">FPT University</text>
+<rect x="39" y="146" width="38" height="38" rx="9" fill="#FFFDF8" stroke="#E2D8CE"/>
+<g transform="translate(46 153)" fill="none" stroke="#A96D46" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6C9 4 5 4 2 5v14c4-1 7-1 10 1 3-2 6-2 10-1V5c-3-1-7-1-10 1Z"/><path d="M12 6v14"/></g>
+<text x="94" y="159" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="650" letter-spacing=".5" fill="#667984">MAJOR</text>
+<text x="94" y="183" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#243844">Software Engineering</text>
+<rect x="528" y="146" width="38" height="38" rx="9" fill="#FFFDF8" stroke="#E2D8CE"/>
+<g transform="translate(535 153)" fill="none" stroke="#A96D46" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-16-4 20"/></g>
+<text x="583" y="159" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="650" letter-spacing=".5" fill="#667984">FOCUS</text>
+<text x="583" y="183" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#243844">Backend Development</text>
+<rect x="39" y="210" width="38" height="38" rx="9" fill="#FFFDF8" stroke="#E2D8CE"/>
+<g transform="translate(46 217)" fill="none" stroke="#437D79" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.6"/></g>
+<text x="94" y="223" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="650" letter-spacing=".5" fill="#667984">LOCATION</text>
+<text x="94" y="247" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#243844">Vietnam</text>
+<rect x="528" y="210" width="38" height="38" rx="9" fill="#FFFDF8" stroke="#E2D8CE"/>
+<g transform="translate(535 217)" fill="none" stroke="#437D79" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.3"/></g>
+<text x="583" y="223" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="650" letter-spacing=".5" fill="#667984">CAREER GOAL</text>
+<text x="583" y="247" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#243844">Senior Engineer / Software Architect</text>
+</svg>
