@@ -22,10 +22,6 @@
   </a>
 </p>
 
-<p align="center">
-  <strong>Think clearly. Design cleanly. Build reliably.</strong>
-</p>
-
 <!-- WEATHER_START -->
 <p align="center">
   <picture>
@@ -46,6 +42,7 @@
     <img src="./assets/sections/dark/01-personal-info.svg" width="100%" alt="01 Personal Information" />
   </picture>
 </p>
+
 - 👤 **Name:** Hiếu Nguyễn
 - 🎓 **Education:** FPT University
 - 📚 **Major:** Software Engineering
