@@ -39,8 +39,13 @@
 <br/>
 
 <!-- PERSONAL INFORMATION -->
-### 👤 Personal Information
-
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/dark/01-personal-info.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/light/01-personal-info.svg" />
+    <img src="./assets/sections/dark/01-personal-info.svg" width="100%" alt="01 Personal Information" />
+  </picture>
+</p>
 - 👤 **Name:** Hiếu Nguyễn
 - 🎓 **Education:** FPT University
 - 📚 **Major:** Software Engineering
