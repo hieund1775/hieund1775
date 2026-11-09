@@ -32,23 +32,14 @@
 
 <br/>
 
-<!-- PERSONAL INFORMATION: simple, theme-native GitHub table -->
-<h3 align="center">☕ Personal Information</h3>
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%"><strong>👤 Name</strong><br/>Hiếu Nguyễn</td>
-    <td width="50%"><strong>🎓 Education</strong><br/>FPT University</td>
-  </tr>
-  <tr>
-    <td><strong>📚 Major</strong><br/>Software Engineering</td>
-    <td><strong>💻 Focus</strong><br/>Backend Development</td>
-  </tr>
-  <tr>
-    <td><strong>📍 Location</strong><br/>Vietnam</td>
-    <td><strong>🎯 Career Goal</strong><br/>Senior Engineer / Software Architect</td>
-  </tr>
-</table>
+<!-- PERSONAL INFORMATION: full-width, theme-aware SVG -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/personal-info-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/personal-info-light.svg" />
+    <img src="./assets/personal-info-dark.svg" width="100%" alt="Personal information: Hiếu Nguyễn, FPT University, Software Engineering, Backend Development, Vietnam, goal of Senior Engineer or Software Architect" />
+  </picture>
+</p>
 
 <br/>
 
