@@ -1,0 +1,74 @@
+{
+  "sit-from-land": {
+    "frames": 18,
+    "source": "land",
+    "source_frame": 16,
+    "duration_ms": 580,
+    "ends_at": "idle#0",
+    "asset": "sit-from-land-sprite.webp"
+  },
+  "sit-from-fire": {
+    "frames": 18,
+    "source": "fire",
+    "source_frame": 44,
+    "duration_ms": 580,
+    "ends_at": "idle#0",
+    "asset": "sit-from-fire-sprite.webp"
+  },
+  "sit-from-curious-look": {
+    "frames": 18,
+    "source": "curious-look",
+    "source_frame": 0,
+    "duration_ms": 580,
+    "ends_at": "idle#0",
+    "asset": "sit-from-curious-look-sprite.webp"
+  },
+  "sit-from-curious-tilt": {
+    "frames": 18,
+    "source": "curious-tilt",
+    "source_frame": 47,
+    "duration_ms": 580,
+    "ends_at": "idle#0",
+    "asset": "sit-from-curious-tilt-sprite.webp"
+  },
+  "sit-from-curious-peek": {
+    "frames": 18,
+    "source": "curious-peek",
+    "source_frame": 47,
+    "duration_ms": 580,
+    "ends_at": "idle#0",
+    "asset": "sit-from-curious-peek-sprite.webp"
+  },
+  "sit-from-curious-blink": {
+    "frames": 18,
+    "source": "curious-blink",
+    "source_frame": 36,
+    "duration_ms": 580,
+    "ends_at": "idle#0",
+    "asset": "sit-from-curious-blink-sprite.webp"
+  },
+  "sit-from-curious-wing": {
+    "frames": 18,
+    "source": "curious-wing",
+    "source_frame": 47,
+    "duration_ms": 580,
+    "ends_at": "idle#0",
+    "asset": "sit-from-curious-wing-sprite.webp"
+  },
+  "sit-from-curious-tail": {
+    "frames": 18,
+    "source": "curious-tail",
+    "source_frame": 47,
+    "duration_ms": 580,
+    "ends_at": "idle#0",
+    "asset": "sit-from-curious-tail-sprite.webp"
+  },
+  "sit-from-curious-stretch": {
+    "frames": 18,
+    "source": "curious-stretch",
+    "source_frame": 47,
+    "duration_ms": 580,
+    "ends_at": "idle#0",
+    "asset": "sit-from-curious-stretch-sprite.webp"
+  }
+}

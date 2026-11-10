@@ -1,0 +1,232 @@
+{
+  "sleep": {
+    "frames": 60,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": true,
+    "pingpong": false,
+    "file": "dragon/sleep-sprite.webp",
+    "source": "Approved v2 sprite frames, size-adjusted only where needed"
+  },
+  "fly": {
+    "frames": 24,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": true,
+    "pingpong": false,
+    "file": "dragon/fly-sprite.webp",
+    "source": "Approved v2 sprite frames, size-adjusted only where needed"
+  },
+  "land": {
+    "frames": 30,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": false,
+    "file": "dragon/land-sprite.webp",
+    "source": "Approved v2 sprite frames, size-adjusted only where needed"
+  },
+  "grab": {
+    "frames": 30,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": false,
+    "file": "dragon/grab-sprite.webp",
+    "source": "Approved v2 sprite frames, size-adjusted only where needed"
+  },
+  "fire": {
+    "frames": 45,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": false,
+    "file": "dragon/fire-sprite.webp",
+    "source": "Approved v2 sprite frames, size-adjusted only where needed"
+  },
+  "idle": {
+    "frames": 48,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": false,
+    "file": "dragon/idle-sprite.webp",
+    "source": "Canonical seated pose; intentionally stays on frame #0 between actions"
+  },
+  "curious-look": {
+    "frames": 48,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": true,
+    "file": "dragon/curious-look-sprite.webp",
+    "source": "curated from previous Repo Dragon frames"
+  },
+  "curious-tilt": {
+    "frames": 48,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": true,
+    "file": "dragon/curious-tilt-sprite.webp",
+    "source": "curated from previous Repo Dragon frames"
+  },
+  "curious-peek": {
+    "frames": 48,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": true,
+    "file": "dragon/curious-peek-sprite.webp",
+    "source": "curated from previous Repo Dragon frames"
+  },
+  "curious-blink": {
+    "frames": 37,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": false,
+    "file": "dragon/curious-blink-sprite.webp",
+    "source": "Curated blink/eyes-closed poses from original 45-frame animation"
+  },
+  "curious-wing": {
+    "frames": 48,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": true,
+    "file": "dragon/curious-wing-sprite.webp",
+    "source": "curated from previous Repo Dragon frames"
+  },
+  "curious-tail": {
+    "frames": 48,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": true,
+    "file": "dragon/curious-tail-sprite.webp",
+    "source": "curated from previous Repo Dragon frames"
+  },
+  "curious-stretch": {
+    "frames": 48,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": true,
+    "file": "dragon/curious-stretch-sprite.webp",
+    "source": "curated from previous Repo Dragon frames"
+  },
+  "wake": {
+    "frames": 24,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "pingpong": false,
+    "file": "dragon/wake-sprite.webp",
+    "source": "Separate v1 wake GIF key poses, re-timed at 30 FPS"
+  },
+  "sit-from-land": {
+    "frames": 18,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "file": "dragon/sit-from-land-sprite.webp",
+    "duration_ms": 580,
+    "source": "v3.4 pose-recovery blend from land#16 to idle#0"
+  },
+  "sit-from-fire": {
+    "frames": 18,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "file": "dragon/sit-from-fire-sprite.webp",
+    "duration_ms": 580,
+    "source": "v3.4 pose-recovery blend from fire#44 to idle#0"
+  },
+  "sit-from-curious-look": {
+    "frames": 18,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "file": "dragon/sit-from-curious-look-sprite.webp",
+    "duration_ms": 580,
+    "source": "v3.4 pose-recovery blend from curious-look#0 to idle#0"
+  },
+  "sit-from-curious-tilt": {
+    "frames": 18,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "file": "dragon/sit-from-curious-tilt-sprite.webp",
+    "duration_ms": 580,
+    "source": "v3.4 pose-recovery blend from curious-tilt#47 to idle#0"
+  },
+  "sit-from-curious-peek": {
+    "frames": 18,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "file": "dragon/sit-from-curious-peek-sprite.webp",
+    "duration_ms": 580,
+    "source": "v3.4 pose-recovery blend from curious-peek#47 to idle#0"
+  },
+  "sit-from-curious-blink": {
+    "frames": 18,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "file": "dragon/sit-from-curious-blink-sprite.webp",
+    "duration_ms": 580,
+    "source": "v3.4 pose-recovery blend from curious-blink#36 to idle#0"
+  },
+  "sit-from-curious-wing": {
+    "frames": 18,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "file": "dragon/sit-from-curious-wing-sprite.webp",
+    "duration_ms": 580,
+    "source": "v3.4 pose-recovery blend from curious-wing#47 to idle#0"
+  },
+  "sit-from-curious-tail": {
+    "frames": 18,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "file": "dragon/sit-from-curious-tail-sprite.webp",
+    "duration_ms": 580,
+    "source": "v3.4 pose-recovery blend from curious-tail#47 to idle#0"
+  },
+  "sit-from-curious-stretch": {
+    "frames": 18,
+    "cols": 8,
+    "tile": 256,
+    "fps": 30,
+    "loop": false,
+    "file": "dragon/sit-from-curious-stretch-sprite.webp",
+    "duration_ms": 580,
+    "source": "v3.4 pose-recovery blend from curious-stretch#47 to idle#0"
+  }
+}

@@ -13,12 +13,14 @@ import os
 from pathlib import Path
 import subprocess
 import sys
+import shutil
 from datetime import datetime
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
+DRAGON_SITE = ROOT / 'dragon-site'
 SITE_URL = 'https://hieund1775.github.io/hieund1775'
 WEATHER_URL = (
     'https://api.open-meteo.com/v1/forecast'
@@ -130,10 +132,10 @@ def weather_snapshot() -> tuple[str, str]:
             icon = '⛈️'
         else:
             icon = '🌤️'
-        return f'{icon}  Ho Chi Minh City  ·  {degree}°C', now.strftime('%d/%m/%Y · %H:%M ICT')
+        return f'{icon}  Ho Chi Minh City  ·  {degree}°C', now.strftime('%d/%m/%Y')
     except (HTTPError, URLError, RuntimeError, ValueError, KeyError, TypeError, TimeoutError, OSError) as exc:
         print(f'Weather unavailable: {exc}', flush=True)
-        return '🌤  Ho Chi Minh City  ·  Weather temporarily unavailable', now.strftime('%d/%m/%Y · %H:%M ICT')
+        return '🌤  Ho Chi Minh City  ·  Weather temporarily unavailable', now.strftime('%d/%m/%Y')
 
 
 def make_weather_svg(theme: str, title: str, updated: str) -> bytes:
@@ -161,7 +163,11 @@ def build(mode: str, destination: Path) -> None:
     title, updated = weather_snapshot()
     for theme in ('dark', 'light'):
         (destination / f'weather-{theme}.svg').write_bytes(make_weather_svg(theme, title, updated))
-    (destination / 'index.html').write_text('''<!doctype html><html lang="en"><meta charset="utf-8"><title>GitHub profile assets</title><meta name="viewport" content="width=device-width, initial-scale=1"><main style="font:16px system-ui;max-width:700px;margin:48px auto;padding:24px"><h1>GitHub Profile Assets</h1><p>Weather, telemetry and Space Shooter assets, automatically published via GitHub Actions without Git commits.</p><ul><li><a href="weather-dark.svg">Weather</a></li><li><a href="github-telemetry-dark.svg">GitHub telemetry</a></li><li><a href="game.gif">Space Shooter GIF</a></li></ul></main></html>''', encoding='utf-8')
+    (destination / 'index.html').write_text('''<!doctype html><html lang="en"><meta charset="utf-8"><title>GitHub profile assets</title><meta name="viewport" content="width=device-width, initial-scale=1"><main style="font:16px system-ui;max-width:700px;margin:48px auto;padding:24px"><h1>GitHub Profile Assets</h1><p>Weather, telemetry and Space Shooter assets, automatically published via GitHub Actions without Git commits.</p><ul><li><a href="weather-dark.svg">Weather</a></li><li><a href="github-telemetry-dark.svg">GitHub telemetry</a></li><li><a href="game.gif">Space Shooter GIF</a></li><li><a href="dragon/">🐉 Interactive Dragon Mode</a></li></ul></main></html>''', encoding='utf-8')
+    # Preserve the interactive profile across BOTH hourly weather and full refreshes.
+    if not (DRAGON_SITE / 'index.html').is_file():
+        raise RuntimeError('Repo Dragon assets missing; will not deploy incomplete Pages site')
+    shutil.copytree(DRAGON_SITE, destination / 'dragon', dirs_exist_ok=True)
     (destination / '.nojekyll').touch()
     for name in (*ASSETS.keys(), 'weather-dark.svg', 'weather-light.svg'):
         if not valid_image(name, (destination / name).read_bytes()):

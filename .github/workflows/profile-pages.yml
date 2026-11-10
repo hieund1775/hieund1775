@@ -3,13 +3,14 @@ name: Publish Profile Assets (No Bot Commits)
 on:
   schedule:
     - cron: '12 * * * *'   # Weather refreshed hourly
-    - cron: '37 3 * * *'  # Full telemetry + Space Shooter refresh daily (UTC)
+    - cron: '5 0 * * *'  # Telemetry + Space Shooter at 00:05 UTC / 07:05 Vietnam
   push:
     branches: [main]
     paths:
       - '.github/workflows/profile-pages.yml'
       - 'scripts/generate_profile_pages.py'
       - 'scripts/generate_telemetry.py'
+      - 'dragon-site/**'
   workflow_dispatch:
 
 permissions:
@@ -39,7 +40,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FULL_REFRESH: ${{ github.event_name != 'schedule' || github.event.schedule == '37 3 * * *' }}
+          FULL_REFRESH: ${{ github.event_name != 'schedule' || github.event.schedule == '5 0 * * *' }}
         run: |
           set -euo pipefail
           if [ "$FULL_REFRESH" = "true" ]; then
